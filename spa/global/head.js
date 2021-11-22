@@ -101,7 +101,7 @@ function create_fragment(ctx) {
 			t1 = space();
 			title_1 = element("title");
 			t2 = text(/*title*/ ctx[0]);
-			t3 = text(" | Bigspring");
+			t3 = text(" | Seiji Kimoto");
 			t4 = space();
 			if (if_block) if_block.c();
 			t5 = space();
@@ -128,7 +128,7 @@ function create_fragment(ctx) {
 			title_1 = claim_element(head_nodes, "TITLE", {});
 			var title_1_nodes = children(title_1);
 			t2 = claim_text(title_1_nodes, /*title*/ ctx[0]);
-			t3 = claim_text(title_1_nodes, " | Bigspring");
+			t3 = claim_text(title_1_nodes, " | Seiji Kimoto");
 			title_1_nodes.forEach(detach);
 			t4 = claim_space(head_nodes);
 			if (if_block) if_block.l(head_nodes);
@@ -136,7 +136,8 @@ function create_fragment(ctx) {
 			base = claim_element(head_nodes, "BASE", { href: true });
 			t6 = claim_space(head_nodes);
 			script = claim_element(head_nodes, "SCRIPT", { type: true, src: true });
-			children(script).forEach(detach);
+			var script_nodes = children(script);
+			script_nodes.forEach(detach);
 			t7 = claim_space(head_nodes);
 			link0 = claim_element(head_nodes, "LINK", { rel: true, href: true });
 			t8 = claim_space(head_nodes);

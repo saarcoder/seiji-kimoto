@@ -41,7 +41,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (23:6) {#each allContent.filter(content => content.fields?.featured) as post}
+// (22:6) {#each allContent.filter((content) => content.fields?.featured) as post}
 function create_each_block_1(ctx) {
 	let div3;
 	let div2;
@@ -81,7 +81,7 @@ function create_each_block_1(ctx) {
 			t3 = text(t3_value);
 			t4 = space();
 			a1 = element("a");
-			t5 = text("Read More");
+			t5 = text("Weiterlesen");
 			this.h();
 		},
 		l(nodes) {
@@ -111,7 +111,7 @@ function create_each_block_1(ctx) {
 			t4 = claim_space(div1_nodes);
 			a1 = claim_element(div1_nodes, "A", { href: true, class: true });
 			var a1_nodes = children(a1);
-			t5 = claim_text(a1_nodes, "Read More");
+			t5 = claim_text(a1_nodes, "Weiterlesen");
 			a1_nodes.forEach(detach);
 			div1_nodes.forEach(detach);
 			div2_nodes.forEach(detach);
@@ -124,10 +124,10 @@ function create_each_block_1(ctx) {
 			attr(img, "class", "img-fluid rounded-lg w-100");
 			attr(div0, "class", "col-md-6 mb-4 mb-md-0");
 			attr(a0, "href", a0_href_value = /*post*/ ctx[9].path);
-			attr(a0, "class", "post-title svelte-1ajuath");
+			attr(a0, "class", "post-title svelte-16xmdp9");
 			attr(p, "class", "card-text");
 			attr(a1, "href", a1_href_value = /*post*/ ctx[9].path);
-			attr(a1, "class", "btn btn-primary svelte-1ajuath");
+			attr(a1, "class", "btn btn-primary svelte-16xmdp9");
 			attr(div1, "class", "col-md-6");
 			attr(div2, "class", "row align-items-center");
 			attr(div3, "class", "col-12 mb-5 pb-5");
@@ -176,7 +176,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (39:8) {#if i >= postRangeLow && i < postRangeHigh}
+// (48:8) {#if i >= postRangeLow && i < postRangeHigh}
 function create_if_block(ctx) {
 	let div2;
 	let div1;
@@ -214,7 +214,7 @@ function create_if_block(ctx) {
 			t3 = text(t3_value);
 			t4 = space();
 			a1 = element("a");
-			t5 = text("Read More");
+			t5 = text("Weiterlesen");
 			this.h();
 		},
 		l(nodes) {
@@ -241,7 +241,7 @@ function create_if_block(ctx) {
 			t4 = claim_space(div0_nodes);
 			a1 = claim_element(div0_nodes, "A", { href: true, class: true });
 			var a1_nodes = children(a1);
-			t5 = claim_text(a1_nodes, "Read More");
+			t5 = claim_text(a1_nodes, "Weiterlesen");
 			a1_nodes.forEach(detach);
 			div0_nodes.forEach(detach);
 			div1_nodes.forEach(detach);
@@ -253,10 +253,10 @@ function create_if_block(ctx) {
 			attr(img, "alt", img_alt_value = /*post*/ ctx[9].fields.image.alt);
 			attr(img, "class", "card-img rounded-lg mb-4");
 			attr(a0, "href", a0_href_value = /*post*/ ctx[9].path);
-			attr(a0, "class", "post-title svelte-1ajuath");
+			attr(a0, "class", "post-title svelte-16xmdp9");
 			attr(p, "class", "card-text");
 			attr(a1, "href", a1_href_value = /*post*/ ctx[9].path);
-			attr(a1, "class", "btn btn-primary btn-sm svelte-1ajuath");
+			attr(a1, "class", "btn btn-primary btn-sm svelte-16xmdp9");
 			attr(div0, "class", "card-body p-0");
 			attr(div1, "class", "card border-0");
 			attr(div2, "class", "col-lg-4 col-sm-6 mb-5");
@@ -284,7 +284,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (38:6) {#each allPosts as post, i}
+// (47:6) {#each allPosts as post, i}
 function create_each_block(ctx) {
 	let if_block_anchor;
 	let if_block = /*i*/ ctx[11] >= /*postRangeLow*/ ctx[4] && /*i*/ ctx[11] < /*postRangeHigh*/ ctx[3] && create_if_block(ctx);
@@ -424,7 +424,7 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h1, "class", "display-3 svelte-1ajuath");
+			attr(h1, "class", "display-3 svelte-16xmdp9");
 			attr(div0, "class", "container text-center");
 			attr(section0, "class", "section pb-0");
 			attr(div1, "class", "col-12");

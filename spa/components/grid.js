@@ -25,7 +25,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (13:6) {#each items as item}
+// (12:6) {#each items as item}
 function create_each_block(ctx) {
 	let div2;
 	let div1;
@@ -78,9 +78,9 @@ function create_each_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(i, "class", i_class_value = "" + (/*item*/ ctx[2].icon + " mb-3" + " svelte-m7edsr"));
+			attr(i, "class", i_class_value = "" + (/*item*/ ctx[2].icon + " mb-3" + " svelte-1cniud7"));
 			attr(div0, "class", "mb-2 h4");
-			attr(div1, "class", "feature-card text-center svelte-m7edsr");
+			attr(div1, "class", "feature-card text-center svelte-1cniud7");
 			attr(div2, "class", "col-md-4 col-sm-6 mb-4");
 		},
 		m(target, anchor) {
@@ -96,7 +96,7 @@ function create_each_block(ctx) {
 			append(div2, t4);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*items*/ 2 && i_class_value !== (i_class_value = "" + (/*item*/ ctx[2].icon + " mb-3" + " svelte-m7edsr"))) {
+			if (dirty & /*items*/ 2 && i_class_value !== (i_class_value = "" + (/*item*/ ctx[2].icon + " mb-3" + " svelte-1cniud7"))) {
 				attr(i, "class", i_class_value);
 			}
 

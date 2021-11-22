@@ -26,7 +26,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (13:4) {:else}
+// (19:2) {:else}
 function create_else_block_2(ctx) {
 	let li0;
 	let a0;
@@ -90,13 +90,13 @@ function create_else_block_2(ctx) {
 		},
 		h() {
 			attr(span0, "aria-hidden", "true");
-			attr(a0, "href", "blog");
-			attr(a0, "class", "page-link svelte-1dhwyyn");
+			attr(a0, "href", "ausstellungen");
+			attr(a0, "class", "page-link svelte-17pgrx9");
 			attr(a0, "aria-label", "First");
 			attr(li0, "class", "page-item disabled");
 			attr(span1, "aria-hidden", "true");
-			attr(a1, "href", a1_href_value = "blog/" + (/*currentPage*/ ctx[0] - 1));
-			attr(a1, "class", "page-link svelte-1dhwyyn");
+			attr(a1, "href", a1_href_value = "ausstellungen/" + (/*currentPage*/ ctx[0] - 1));
+			attr(a1, "class", "page-link svelte-17pgrx9");
 			attr(a1, "aria-label", "Previous");
 			attr(li1, "class", "page-item disabled");
 		},
@@ -112,7 +112,7 @@ function create_else_block_2(ctx) {
 			append(span1, t2);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*currentPage*/ 1 && a1_href_value !== (a1_href_value = "blog/" + (/*currentPage*/ ctx[0] - 1))) {
+			if (dirty & /*currentPage*/ 1 && a1_href_value !== (a1_href_value = "ausstellungen/" + (/*currentPage*/ ctx[0] - 1))) {
 				attr(a1, "href", a1_href_value);
 			}
 		},
@@ -124,7 +124,7 @@ function create_else_block_2(ctx) {
 	};
 }
 
-// (6:4) {#if (currentPage - 1) > 0}
+// (6:2) {#if currentPage - 1 > 0}
 function create_if_block_2(ctx) {
 	let li0;
 	let a0;
@@ -188,13 +188,13 @@ function create_if_block_2(ctx) {
 		},
 		h() {
 			attr(span0, "aria-hidden", "true");
-			attr(a0, "href", "blog");
-			attr(a0, "class", "page-link svelte-1dhwyyn");
+			attr(a0, "href", "ausstellungen");
+			attr(a0, "class", "page-link svelte-17pgrx9");
 			attr(a0, "aria-label", "First");
 			attr(li0, "class", "page-item");
 			attr(span1, "aria-hidden", "true");
-			attr(a1, "href", a1_href_value = "blog/" + (/*currentPage*/ ctx[0] - 1));
-			attr(a1, "class", "page-link svelte-1dhwyyn");
+			attr(a1, "href", a1_href_value = "ausstellungen/" + (/*currentPage*/ ctx[0] - 1));
+			attr(a1, "class", "page-link svelte-17pgrx9");
 			attr(a1, "aria-label", "Previous");
 			attr(li1, "class", "page-item");
 		},
@@ -210,7 +210,7 @@ function create_if_block_2(ctx) {
 			append(span1, t2);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*currentPage*/ 1 && a1_href_value !== (a1_href_value = "blog/" + (/*currentPage*/ ctx[0] - 1))) {
+			if (dirty & /*currentPage*/ 1 && a1_href_value !== (a1_href_value = "ausstellungen/" + (/*currentPage*/ ctx[0] - 1))) {
 				attr(a1, "href", a1_href_value);
 			}
 		},
@@ -222,7 +222,7 @@ function create_if_block_2(ctx) {
 	};
 }
 
-// (24:8) {:else}
+// (38:4) {:else}
 function create_else_block_1(ctx) {
 	let li;
 	let a;
@@ -248,8 +248,8 @@ function create_else_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "class", "page-link svelte-1dhwyyn");
-			attr(a, "href", a_href_value = "blog/" + (/*i*/ ctx[4] + 1));
+			attr(a, "class", "page-link svelte-17pgrx9");
+			attr(a, "href", a_href_value = "ausstellungen/" + (/*i*/ ctx[4] + 1));
 			attr(li, "class", "page-item");
 		},
 		m(target, anchor) {
@@ -263,7 +263,7 @@ function create_else_block_1(ctx) {
 	};
 }
 
-// (22:8) {#if currentPage == i+1}
+// (34:4) {#if currentPage == i + 1}
 function create_if_block_1(ctx) {
 	let li;
 	let a;
@@ -289,8 +289,8 @@ function create_if_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "class", "page-link svelte-1dhwyyn");
-			attr(a, "href", a_href_value = "blog/" + (/*i*/ ctx[4] + 1));
+			attr(a, "class", "page-link svelte-17pgrx9");
+			attr(a, "href", a_href_value = "ausstellungen/" + (/*i*/ ctx[4] + 1));
 			attr(li, "class", "page-item active");
 		},
 		m(target, anchor) {
@@ -304,7 +304,7 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (21:4) {#each Array(totalPages) as _, i}
+// (33:2) {#each Array(totalPages) as _, i}
 function create_each_block(ctx) {
 	let if_block_anchor;
 
@@ -347,7 +347,7 @@ function create_each_block(ctx) {
 	};
 }
 
-// (35:4) {:else}
+// (57:2) {:else}
 function create_else_block(ctx) {
 	let li0;
 	let a0;
@@ -412,13 +412,13 @@ function create_else_block(ctx) {
 		},
 		h() {
 			attr(span0, "aria-hidden", "true");
-			attr(a0, "href", a0_href_value = "blog/" + (/*currentPage*/ ctx[0] + 1));
-			attr(a0, "class", "page-link svelte-1dhwyyn");
+			attr(a0, "href", a0_href_value = "ausstellungen/" + (/*currentPage*/ ctx[0] + 1));
+			attr(a0, "class", "page-link svelte-17pgrx9");
 			attr(a0, "aria-label", "Next");
 			attr(li0, "class", "page-item disabled");
 			attr(span1, "aria-hidden", "true");
-			attr(a1, "href", a1_href_value = "blog/" + /*totalPages*/ ctx[1]);
-			attr(a1, "class", "page-link svelte-1dhwyyn");
+			attr(a1, "href", a1_href_value = "ausstellungen/" + /*totalPages*/ ctx[1]);
+			attr(a1, "class", "page-link svelte-17pgrx9");
 			attr(a1, "aria-label", "Last");
 			attr(li1, "class", "page-item disabled");
 		},
@@ -434,11 +434,11 @@ function create_else_block(ctx) {
 			append(span1, t2);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*currentPage*/ 1 && a0_href_value !== (a0_href_value = "blog/" + (/*currentPage*/ ctx[0] + 1))) {
+			if (dirty & /*currentPage*/ 1 && a0_href_value !== (a0_href_value = "ausstellungen/" + (/*currentPage*/ ctx[0] + 1))) {
 				attr(a0, "href", a0_href_value);
 			}
 
-			if (dirty & /*totalPages*/ 2 && a1_href_value !== (a1_href_value = "blog/" + /*totalPages*/ ctx[1])) {
+			if (dirty & /*totalPages*/ 2 && a1_href_value !== (a1_href_value = "ausstellungen/" + /*totalPages*/ ctx[1])) {
 				attr(a1, "href", a1_href_value);
 			}
 		},
@@ -450,7 +450,7 @@ function create_else_block(ctx) {
 	};
 }
 
-// (28:4) {#if (currentPage + 1) <= totalPages}
+// (44:2) {#if currentPage + 1 <= totalPages}
 function create_if_block(ctx) {
 	let li0;
 	let a0;
@@ -515,13 +515,13 @@ function create_if_block(ctx) {
 		},
 		h() {
 			attr(span0, "aria-hidden", "true");
-			attr(a0, "href", a0_href_value = "blog/" + (/*currentPage*/ ctx[0] + 1));
-			attr(a0, "class", "page-link svelte-1dhwyyn");
+			attr(a0, "href", a0_href_value = "ausstellungen/" + (/*currentPage*/ ctx[0] + 1));
+			attr(a0, "class", "page-link svelte-17pgrx9");
 			attr(a0, "aria-label", "Next");
 			attr(li0, "class", "page-item");
 			attr(span1, "aria-hidden", "true");
-			attr(a1, "href", a1_href_value = "blog/" + /*totalPages*/ ctx[1]);
-			attr(a1, "class", "page-link svelte-1dhwyyn");
+			attr(a1, "href", a1_href_value = "ausstellungen/" + /*totalPages*/ ctx[1]);
+			attr(a1, "class", "page-link svelte-17pgrx9");
 			attr(a1, "aria-label", "Last");
 			attr(li1, "class", "page-item");
 		},
@@ -537,11 +537,11 @@ function create_if_block(ctx) {
 			append(span1, t2);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*currentPage*/ 1 && a0_href_value !== (a0_href_value = "blog/" + (/*currentPage*/ ctx[0] + 1))) {
+			if (dirty & /*currentPage*/ 1 && a0_href_value !== (a0_href_value = "ausstellungen/" + (/*currentPage*/ ctx[0] + 1))) {
 				attr(a0, "href", a0_href_value);
 			}
 
-			if (dirty & /*totalPages*/ 2 && a1_href_value !== (a1_href_value = "blog/" + /*totalPages*/ ctx[1])) {
+			if (dirty & /*totalPages*/ 2 && a1_href_value !== (a1_href_value = "ausstellungen/" + /*totalPages*/ ctx[1])) {
 				attr(a1, "href", a1_href_value);
 			}
 		},
@@ -610,7 +610,7 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			attr(ul, "class", "pagination svelte-1dhwyyn");
+			attr(ul, "class", "pagination svelte-17pgrx9");
 		},
 		m(target, anchor) {
 			insert(target, ul, anchor);

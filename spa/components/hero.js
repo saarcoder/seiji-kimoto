@@ -5,110 +5,95 @@ import {
 	attr,
 	children,
 	claim_element,
-	claim_space,
 	claim_text,
 	detach,
 	element,
 	init,
 	insert,
+	listen,
 	noop,
 	safe_not_equal,
 	set_data,
-	space,
 	text
 } from '../web_modules/svelte/internal/index.mjs';
 
 function create_fragment(ctx) {
 	let section;
 	let div1;
-	let img;
-	let img_src_value;
-	let t0;
 	let div0;
-	let a;
-	let t1_value = /*link*/ ctx[0].title + "";
-	let t1;
-	let a_href_value;
+	let t_value = /*link*/ ctx[0].title + "";
+	let t;
+	let mounted;
+	let dispose;
 
 	return {
 		c() {
 			section = element("section");
 			div1 = element("div");
-			img = element("img");
-			t0 = space();
 			div0 = element("div");
-			a = element("a");
-			t1 = text(t1_value);
+			t = text(t_value);
 			this.h();
 		},
 		l(nodes) {
-			section = claim_element(nodes, "SECTION", {});
+			section = claim_element(nodes, "SECTION", { class: true });
 			var section_nodes = children(section);
-			div1 = claim_element(section_nodes, "DIV", { class: true });
+			div1 = claim_element(section_nodes, "DIV", {});
 			var div1_nodes = children(div1);
-			img = claim_element(div1_nodes, "IMG", { src: true, alt: true });
-			t0 = claim_space(div1_nodes);
-			div0 = claim_element(div1_nodes, "DIV", {});
+			div0 = claim_element(div1_nodes, "DIV", { class: true });
 			var div0_nodes = children(div0);
-			a = claim_element(div0_nodes, "A", { href: true, class: true });
-			var a_nodes = children(a);
-			t1 = claim_text(a_nodes, t1_value);
-			a_nodes.forEach(detach);
+			t = claim_text(div0_nodes, t_value);
 			div0_nodes.forEach(detach);
 			div1_nodes.forEach(detach);
 			section_nodes.forEach(detach);
 			this.h();
 		},
 		h() {
-			if (img.src !== (img_src_value = "assets" + /*image*/ ctx[1])) attr(img, "src", img_src_value);
-			attr(img, "alt", "Two people looking at websites");
-			attr(a, "href", a_href_value = /*link*/ ctx[0].url);
-			attr(a, "class", "btn btn-primary btn-hero svelte-nb52aj");
-			attr(div1, "class", "cover-container d-flex w-100 h-100 flex-column text-center");
+			attr(div0, "class", "btn btn-primary btn-hero svelte-1lf7d5v");
+			attr(section, "class", "cover-container d-flex w-100 h-100 text-center svelte-1lf7d5v");
 		},
 		m(target, anchor) {
 			insert(target, section, anchor);
 			append(section, div1);
-			append(div1, img);
-			append(div1, t0);
 			append(div1, div0);
-			append(div0, a);
-			append(a, t1);
+			append(div0, t);
+
+			if (!mounted) {
+				dispose = listen(div0, "click", handleClick);
+				mounted = true;
+			}
 		},
 		p(ctx, [dirty]) {
-			if (dirty & /*image*/ 2 && img.src !== (img_src_value = "assets" + /*image*/ ctx[1])) {
-				attr(img, "src", img_src_value);
-			}
-
-			if (dirty & /*link*/ 1 && t1_value !== (t1_value = /*link*/ ctx[0].title + "")) set_data(t1, t1_value);
-
-			if (dirty & /*link*/ 1 && a_href_value !== (a_href_value = /*link*/ ctx[0].url)) {
-				attr(a, "href", a_href_value);
-			}
+			if (dirty & /*link*/ 1 && t_value !== (t_value = /*link*/ ctx[0].title + "")) set_data(t, t_value);
 		},
 		i: noop,
 		o: noop,
 		d(detaching) {
 			if (detaching) detach(section);
+			mounted = false;
+			dispose();
 		}
 	};
 }
 
+function handleClick() {
+	let height = document.querySelector(".cover-container").offsetHeight;
+	window.scrollTo({ top: height, left: 0, behavior: "smooth" });
+}
+
 function instance($$self, $$props, $$invalidate) {
-	let { link } = $$props, { image } = $$props;
+	let { link } = $$props;
 
 	$$self.$$set = $$props => {
 		if ("link" in $$props) $$invalidate(0, link = $$props.link);
-		if ("image" in $$props) $$invalidate(1, image = $$props.image);
 	};
 
-	return [link, image];
+	return [link];
 }
 
 class Component extends SvelteComponent {
 	constructor(options) {
 		super();
-		init(this, options, instance, create_fragment, safe_not_equal, { link: 0, image: 1 });
+		init(this, options, instance, create_fragment, safe_not_equal, { link: 0 });
 	}
 }
 

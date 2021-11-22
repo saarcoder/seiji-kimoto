@@ -10,7 +10,7 @@ export {default as layouts_components_page_title_svelte} from '../components/pag
 export {default as layouts_components_pagination_svelte} from '../components/pagination.js';
 export {default as layouts_components_pricing_svelte} from '../components/pricing.js';
 export {default as layouts_content_404_svelte} from '../content/404.js';
-export {default as layouts_content_blog_svelte} from '../content/blog.js';
+export {default as layouts_content_ausstellungen_svelte} from '../content/ausstellungen.js';
 export {default as layouts_content_index_svelte} from '../content/index.js';
 export {default as layouts_content_pages_svelte} from '../content/pages.js';
 export {default as layouts_content_posts_svelte} from '../content/posts.js';

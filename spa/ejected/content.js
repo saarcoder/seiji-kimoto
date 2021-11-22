@@ -1,14 +1,14 @@
 const allContent = [{
 "pager": 1,
-"path": "blog",
-"type": "blog",
-"filename": "blog.json",
+"path": "ausstellungen",
+"type": "ausstellungen",
+"filename": "ausstellungen.json",
 "fields": {
     "meta": {
-        "desc": "List of blog posts",
-        "keywords": "Plenti, Themes, blog, pagination"
+        "desc": "Übersicht über öffentliche Ausstellungen",
+        "keywords": "Werkschau, Ausstellung"
     },
-    "title": "Latest News"
+    "title": "Aktuelles"
 }
 
 },{
@@ -26,8 +26,7 @@ const allContent = [{
 			"name": "hero",
 			"fields": {
 				"link": {
-					"title": "Starten",
-					"url": "contact"
+					"title": "Starten"
 				},
 				"image": "/Portrait.jpg"
 			}
@@ -461,7 +460,7 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "blog/post-1",
+"path": "ausstellungen/post-1",
 "type": "posts",
 "filename": "post-1.json",
 "fields": {
@@ -476,7 +475,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "blog/post-2",
+"path": "ausstellungen/post-2",
 "type": "posts",
 "filename": "post-2.json",
 "fields": {
@@ -492,7 +491,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "blog/post-3",
+"path": "ausstellungen/post-3",
 "type": "posts",
 "filename": "post-3.json",
 "fields": {
@@ -507,7 +506,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "blog/post-4",
+"path": "ausstellungen/post-4",
 "type": "posts",
 "filename": "post-4.json",
 "fields": {
@@ -522,7 +521,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "blog/post-5",
+"path": "ausstellungen/post-5",
 "type": "posts",
 "filename": "post-5.json",
 "fields": {
@@ -537,7 +536,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "blog/post-6",
+"path": "ausstellungen/post-6",
 "type": "posts",
 "filename": "post-6.json",
 "fields": {
@@ -552,7 +551,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "blog/post-7",
+"path": "ausstellungen/post-7",
 "type": "posts",
 "filename": "post-7.json",
 "fields": {
@@ -567,22 +566,22 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "blog/1",
-"type": "blog",
-"filename": "blog.json",
-"fields": { "meta": { "desc": "List of blog posts", "keywords": "Plenti, Themes, blog, pagination" }, "title": "Latest News" } 
+"path": "ausstellungen/1",
+"type": "ausstellungen",
+"filename": "ausstellungen.json",
+"fields": { "meta": { "desc": "Übersicht über öffentliche Ausstellungen", "keywords": "Werkschau, Ausstellung" }, "title": "Aktuelles" } 
 },{
 "pager": 2,
-"path": "blog/2",
-"type": "blog",
-"filename": "blog.json",
-"fields": { "meta": { "desc": "List of blog posts", "keywords": "Plenti, Themes, blog, pagination" }, "title": "Latest News" } 
+"path": "ausstellungen/2",
+"type": "ausstellungen",
+"filename": "ausstellungen.json",
+"fields": { "meta": { "desc": "Übersicht über öffentliche Ausstellungen", "keywords": "Werkschau, Ausstellung" }, "title": "Aktuelles" } 
 },{
 "pager": 3,
-"path": "blog/3",
-"type": "blog",
-"filename": "blog.json",
-"fields": { "meta": { "desc": "List of blog posts", "keywords": "Plenti, Themes, blog, pagination" }, "title": "Latest News" } 
+"path": "ausstellungen/3",
+"type": "ausstellungen",
+"filename": "ausstellungen.json",
+"fields": { "meta": { "desc": "Übersicht über öffentliche Ausstellungen", "keywords": "Werkschau, Ausstellung" }, "title": "Aktuelles" } 
 },];
 
 export default allContent;

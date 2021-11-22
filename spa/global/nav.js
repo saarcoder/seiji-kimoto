@@ -44,8 +44,12 @@ function create_fragment(ctx) {
 	let a4;
 	let t8;
 	let t9;
+	let li4;
 	let a5;
 	let t10;
+	let t11;
+	let a6;
+	let t12;
 
 	return {
 		c() {
@@ -60,22 +64,26 @@ function create_fragment(ctx) {
 			ul = element("ul");
 			li0 = element("li");
 			a1 = element("a");
-			t2 = text("Blog");
+			t2 = text("Ausstellungen");
 			t3 = space();
 			li1 = element("li");
 			a2 = element("a");
-			t4 = text("Pricing");
+			t4 = text("Arbeiten");
 			t5 = space();
 			li2 = element("li");
 			a3 = element("a");
-			t6 = text("Contact");
+			t6 = text("Interpretation");
 			t7 = space();
 			li3 = element("li");
 			a4 = element("a");
-			t8 = text("FAQ");
+			t8 = text("Publikationen");
 			t9 = space();
+			li4 = element("li");
 			a5 = element("a");
-			t10 = text("Get Started");
+			t10 = text("Vita");
+			t11 = space();
+			a6 = element("a");
+			t12 = text("Get Started");
 			this.h();
 		},
 		l(nodes) {
@@ -115,7 +123,7 @@ function create_fragment(ctx) {
 			var li0_nodes = children(li0);
 			a1 = claim_element(li0_nodes, "A", { class: true, href: true });
 			var a1_nodes = children(a1);
-			t2 = claim_text(a1_nodes, "Blog");
+			t2 = claim_text(a1_nodes, "Ausstellungen");
 			a1_nodes.forEach(detach);
 			li0_nodes.forEach(detach);
 			t3 = claim_space(ul_nodes);
@@ -123,7 +131,7 @@ function create_fragment(ctx) {
 			var li1_nodes = children(li1);
 			a2 = claim_element(li1_nodes, "A", { class: true, href: true });
 			var a2_nodes = children(a2);
-			t4 = claim_text(a2_nodes, "Pricing");
+			t4 = claim_text(a2_nodes, "Arbeiten");
 			a2_nodes.forEach(detach);
 			li1_nodes.forEach(detach);
 			t5 = claim_space(ul_nodes);
@@ -131,7 +139,7 @@ function create_fragment(ctx) {
 			var li2_nodes = children(li2);
 			a3 = claim_element(li2_nodes, "A", { class: true, href: true });
 			var a3_nodes = children(a3);
-			t6 = claim_text(a3_nodes, "Contact");
+			t6 = claim_text(a3_nodes, "Interpretation");
 			a3_nodes.forEach(detach);
 			li2_nodes.forEach(detach);
 			t7 = claim_space(ul_nodes);
@@ -139,15 +147,23 @@ function create_fragment(ctx) {
 			var li3_nodes = children(li3);
 			a4 = claim_element(li3_nodes, "A", { class: true, href: true });
 			var a4_nodes = children(a4);
-			t8 = claim_text(a4_nodes, "FAQ");
+			t8 = claim_text(a4_nodes, "Publikationen");
 			a4_nodes.forEach(detach);
 			li3_nodes.forEach(detach);
-			ul_nodes.forEach(detach);
-			t9 = claim_space(div_nodes);
-			a5 = claim_element(div_nodes, "A", { href: true, class: true });
+			t9 = claim_space(ul_nodes);
+			li4 = claim_element(ul_nodes, "LI", { class: true });
+			var li4_nodes = children(li4);
+			a5 = claim_element(li4_nodes, "A", { class: true, href: true });
 			var a5_nodes = children(a5);
-			t10 = claim_text(a5_nodes, "Get Started");
+			t10 = claim_text(a5_nodes, "Vita");
 			a5_nodes.forEach(detach);
+			li4_nodes.forEach(detach);
+			ul_nodes.forEach(detach);
+			t11 = claim_space(div_nodes);
+			a6 = claim_element(div_nodes, "A", { href: true, class: true });
+			var a6_nodes = children(a6);
+			t12 = claim_text(a6_nodes, "Get Started");
+			a6_nodes.forEach(detach);
 			div_nodes.forEach(detach);
 			nav_nodes.forEach(detach);
 			this.h();
@@ -166,20 +182,23 @@ function create_fragment(ctx) {
 			attr(button, "data-target", "#navigation");
 			attr(button, "aria-expanded", "false");
 			attr(a1, "class", "nav-link");
-			attr(a1, "href", "blog");
+			attr(a1, "href", "ausstellungen");
 			attr(li0, "class", "nav-item");
 			attr(a2, "class", "nav-link");
-			attr(a2, "href", "pricing");
+			attr(a2, "href", "arbeiten");
 			attr(li1, "class", "nav-item");
 			attr(a3, "class", "nav-link");
-			attr(a3, "href", "contact");
+			attr(a3, "href", "interpretation");
 			attr(li2, "class", "nav-item");
 			attr(a4, "class", "nav-link");
-			attr(a4, "href", "faq");
+			attr(a4, "href", "publikationen");
 			attr(li3, "class", "nav-item");
+			attr(a5, "class", "nav-link");
+			attr(a5, "href", "kuenstler");
+			attr(li4, "class", "nav-item");
 			attr(ul, "class", "navbar-nav mx-auto");
-			attr(a5, "href", "contact");
-			attr(a5, "class", "btn btn-sm btn-primary ml-3");
+			attr(a6, "href", "contact");
+			attr(a6, "class", "btn btn-sm btn-primary ml-3");
 			attr(div, "class", "navbar-collapse text-center collapse");
 			attr(div, "id", "navigation");
 			attr(nav, "class", "navbar navbar-expand-lg navbar-light bg-transparent");
@@ -209,9 +228,13 @@ function create_fragment(ctx) {
 			append(ul, li3);
 			append(li3, a4);
 			append(a4, t8);
-			append(div, t9);
-			append(div, a5);
+			append(ul, t9);
+			append(ul, li4);
+			append(li4, a5);
 			append(a5, t10);
+			append(div, t11);
+			append(div, a6);
+			append(a6, t12);
 		},
 		p: noop,
 		i: noop,
