@@ -1,0 +1,12 @@
+{
+	"build": "public",
+  "baseurl": "/bigspring/",
+	"routes": {
+		"pages": ":filename",
+		"posts": "blog/:filename",
+		"blog": "blog/:paginate(totalPages)"
+	},
+	"local": {
+		"port": 3000
+	}
+}
