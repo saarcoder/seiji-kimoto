@@ -1,21 +1,18 @@
 <script>
-  export let title, body, link, image;
+  export let link, image;
 </script>
-<section class="banner">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <h1 class="mb-3">{title}</h1>
-        <p class="mb-4">{body}</p>
-        <div><a href="{link.url}" class="btn btn-primary">{link.title}</a></div>
-        <img src="assets{image}" alt="Two people looking at websites" class="img-fluid mt-5" width="750px">
-      </div>
+
+<section>
+  <div class="cover-container d-flex w-100 h-100 flex-column text-center">
+    <img src="assets{image}" alt="Two people looking at websites" />
+    <div>
+      <a href={link.url} class="btn btn-primary btn-hero">{link.title}</a>
     </div>
   </div>
 </section>
 
 <style>
-  .banner {
-    padding: 100px 0 50px;
+  .btn-hero {
+    margin-top: -5rem;
   }
 </style>

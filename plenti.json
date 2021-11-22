@@ -1,6 +1,6 @@
 {
 	"build": "public",
-  "baseurl": "/bigspring/",
+  "baseurl": "/seiji-kimoto/",
 	"routes": {
 		"pages": ":filename",
 		"posts": "blog/:filename",

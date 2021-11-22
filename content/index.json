@@ -1,19 +1,17 @@
 {
   "meta": {
-    "desc": "Bigspring is a theme for the Plentico static site generator",
-    "keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+    "desc": "Seiji Kimoto ist ein seit über 4 Jahrzehnten in Deutschland tätiger bildender Künstler mit Schwerpunkten in der Bildhauerei und Grafik. Sein Werk war in zahlreichen Ausstellungen in Deutschland und Europa zu sehen.",
+    "keywords": "Bildende Kunst, Bildhauer, Saarland, Saarländer, Japaner, Neunkirchen"
   },
 	"components": [
 		{
 			"name": "hero",
 			"fields": {
-				"title": "Let us solve your critical website development challenges",
-				"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus",
 				"link": {
-					"title": "Contact with Us",
+					"title": "Starten",
 					"url": "contact"
 				},
-				"image": "/banner-art.svg"
+				"image": "/Portrait.jpg"
 			}
 		},
 		{
