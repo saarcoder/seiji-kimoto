@@ -1,45 +1,73 @@
 <script>
-    export let currentPage, totalPages;
+  export let currentPage, totalPages;
 </script>
 
 <ul class="pagination">
-    {#if (currentPage - 1) > 0}
+  {#if currentPage - 1 > 0}
     <li class="page-item">
-        <a href="blog" class="page-link" aria-label="First"><span aria-hidden="true">««</span></a>
+      <a href="ausstellungen" class="page-link" aria-label="First"
+        ><span aria-hidden="true">««</span></a
+      >
     </li>
     <li class="page-item">
-        <a href="blog/{currentPage - 1}" class="page-link" aria-label="Previous"><span aria-hidden="true">«</span></a>
+      <a
+        href="ausstellungen/{currentPage - 1}"
+        class="page-link"
+        aria-label="Previous"><span aria-hidden="true">«</span></a
+      >
     </li>
+  {:else}
+    <li class="page-item disabled">
+      <a href="ausstellungen" class="page-link" aria-label="First"
+        ><span aria-hidden="true">««</span></a
+      >
+    </li>
+    <li class="page-item disabled">
+      <a
+        href="ausstellungen/{currentPage - 1}"
+        class="page-link"
+        aria-label="Previous"><span aria-hidden="true">«</span></a
+      >
+    </li>
+  {/if}
+  {#each Array(totalPages) as _, i}
+    {#if currentPage == i + 1}
+      <li class="page-item active">
+        <a class="page-link" href="ausstellungen/{i + 1}">{i + 1}</a>
+      </li>
     {:else}
-    <li class="page-item disabled">
-        <a href="blog" class="page-link" aria-label="First"><span aria-hidden="true">««</span></a>
-    </li>
-    <li class="page-item disabled">
-        <a href="blog/{currentPage - 1}" class="page-link" aria-label="Previous"><span aria-hidden="true">«</span></a>
-    </li>
+      <li class="page-item">
+        <a class="page-link" href="ausstellungen/{i + 1}">{i + 1}</a>
+      </li>
     {/if}
-    {#each Array(totalPages) as _, i}
-        {#if currentPage == i+1}
-            <li class="page-item active"><a class="page-link" href="blog/{i+1}">{i+1}</a></li>
-        {:else}
-            <li class="page-item"><a class="page-link" href="blog/{i+1}">{i+1}</a></li>
-        {/if}
-    {/each}
-    {#if (currentPage + 1) <= totalPages}
+  {/each}
+  {#if currentPage + 1 <= totalPages}
     <li class="page-item">
-        <a href="blog/{currentPage + 1}" class="page-link" aria-label="Next"><span aria-hidden="true">»</span></a>
+      <a
+        href="ausstellungen/{currentPage + 1}"
+        class="page-link"
+        aria-label="Next"><span aria-hidden="true">»</span></a
+      >
     </li>
     <li class="page-item">
-        <a href="blog/{totalPages}" class="page-link" aria-label="Last"><span aria-hidden="true">»»</span></a>
+      <a href="ausstellungen/{totalPages}" class="page-link" aria-label="Last"
+        ><span aria-hidden="true">»»</span></a
+      >
     </li>
-    {:else}
+  {:else}
     <li class="page-item disabled">
-        <a href="blog/{currentPage + 1}" class="page-link" aria-label="Next"><span aria-hidden="true">»</span></a>
+      <a
+        href="ausstellungen/{currentPage + 1}"
+        class="page-link"
+        aria-label="Next"><span aria-hidden="true">»</span></a
+      >
     </li>
     <li class="page-item disabled">
-        <a href="blog/{totalPages}" class="page-link" aria-label="Last"><span aria-hidden="true">»»</span></a>
+      <a href="ausstellungen/{totalPages}" class="page-link" aria-label="Last"
+        ><span aria-hidden="true">»»</span></a
+      >
     </li>
-    {/if}
+  {/if}
 </ul>
 
 <style>
@@ -47,7 +75,8 @@
     margin-top: 30px;
     justify-content: center;
   }
-  .pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link {
+  .pagination .page-item:first-child .page-link,
+  .pagination .page-item:last-child .page-link {
     border-radius: 5px;
   }
   .pagination .page-item .page-link {

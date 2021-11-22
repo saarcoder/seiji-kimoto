@@ -3,8 +3,8 @@
   "baseurl": "/seiji-kimoto/",
 	"routes": {
 		"pages": ":filename",
-		"posts": "blog/:filename",
-		"blog": "blog/:paginate(totalPages)"
+		"posts": "ausstellungen/:filename",
+		"ausstellungen": "ausstellungen/:paginate(totalPages)"
 	},
 	"local": {
 		"port": 3000

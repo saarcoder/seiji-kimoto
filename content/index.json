@@ -8,8 +8,7 @@
 			"name": "hero",
 			"fields": {
 				"link": {
-					"title": "Starten",
-					"url": "contact"
+					"title": "Starten"
 				},
 				"image": "/Portrait.jpg"
 			}
