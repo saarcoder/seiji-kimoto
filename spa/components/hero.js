@@ -20,126 +20,70 @@ import {
 
 function create_fragment(ctx) {
 	let section;
-	let div3;
-	let div2;
 	let div1;
-	let h1;
-	let t0;
-	let t1;
-	let p;
-	let t2;
-	let t3;
-	let div0;
-	let a;
-	let t4_value = /*link*/ ctx[2].title + "";
-	let t4;
-	let a_href_value;
-	let t5;
 	let img;
 	let img_src_value;
+	let t0;
+	let div0;
+	let a;
+	let t1_value = /*link*/ ctx[0].title + "";
+	let t1;
+	let a_href_value;
 
 	return {
 		c() {
 			section = element("section");
-			div3 = element("div");
-			div2 = element("div");
 			div1 = element("div");
-			h1 = element("h1");
-			t0 = text(/*title*/ ctx[0]);
-			t1 = space();
-			p = element("p");
-			t2 = text(/*body*/ ctx[1]);
-			t3 = space();
+			img = element("img");
+			t0 = space();
 			div0 = element("div");
 			a = element("a");
-			t4 = text(t4_value);
-			t5 = space();
-			img = element("img");
+			t1 = text(t1_value);
 			this.h();
 		},
 		l(nodes) {
-			section = claim_element(nodes, "SECTION", { class: true });
+			section = claim_element(nodes, "SECTION", {});
 			var section_nodes = children(section);
-			div3 = claim_element(section_nodes, "DIV", { class: true });
-			var div3_nodes = children(div3);
-			div2 = claim_element(div3_nodes, "DIV", { class: true });
-			var div2_nodes = children(div2);
-			div1 = claim_element(div2_nodes, "DIV", { class: true });
+			div1 = claim_element(section_nodes, "DIV", { class: true });
 			var div1_nodes = children(div1);
-			h1 = claim_element(div1_nodes, "H1", { class: true });
-			var h1_nodes = children(h1);
-			t0 = claim_text(h1_nodes, /*title*/ ctx[0]);
-			h1_nodes.forEach(detach);
-			t1 = claim_space(div1_nodes);
-			p = claim_element(div1_nodes, "P", { class: true });
-			var p_nodes = children(p);
-			t2 = claim_text(p_nodes, /*body*/ ctx[1]);
-			p_nodes.forEach(detach);
-			t3 = claim_space(div1_nodes);
+			img = claim_element(div1_nodes, "IMG", { src: true, alt: true });
+			t0 = claim_space(div1_nodes);
 			div0 = claim_element(div1_nodes, "DIV", {});
 			var div0_nodes = children(div0);
 			a = claim_element(div0_nodes, "A", { href: true, class: true });
 			var a_nodes = children(a);
-			t4 = claim_text(a_nodes, t4_value);
+			t1 = claim_text(a_nodes, t1_value);
 			a_nodes.forEach(detach);
 			div0_nodes.forEach(detach);
-			t5 = claim_space(div1_nodes);
-
-			img = claim_element(div1_nodes, "IMG", {
-				src: true,
-				alt: true,
-				class: true,
-				width: true
-			});
-
 			div1_nodes.forEach(detach);
-			div2_nodes.forEach(detach);
-			div3_nodes.forEach(detach);
 			section_nodes.forEach(detach);
 			this.h();
 		},
 		h() {
-			attr(h1, "class", "mb-3");
-			attr(p, "class", "mb-4");
-			attr(a, "href", a_href_value = /*link*/ ctx[2].url);
-			attr(a, "class", "btn btn-primary");
-			if (img.src !== (img_src_value = "assets" + /*image*/ ctx[3])) attr(img, "src", img_src_value);
+			if (img.src !== (img_src_value = "assets" + /*image*/ ctx[1])) attr(img, "src", img_src_value);
 			attr(img, "alt", "Two people looking at websites");
-			attr(img, "class", "img-fluid mt-5");
-			attr(img, "width", "750px");
-			attr(div1, "class", "col-lg-10 mx-auto text-center");
-			attr(div2, "class", "row");
-			attr(div3, "class", "container");
-			attr(section, "class", "banner svelte-8pcnhp");
+			attr(a, "href", a_href_value = /*link*/ ctx[0].url);
+			attr(a, "class", "btn btn-primary btn-hero svelte-nb52aj");
+			attr(div1, "class", "cover-container d-flex w-100 h-100 flex-column text-center");
 		},
 		m(target, anchor) {
 			insert(target, section, anchor);
-			append(section, div3);
-			append(div3, div2);
-			append(div2, div1);
-			append(div1, h1);
-			append(h1, t0);
-			append(div1, t1);
-			append(div1, p);
-			append(p, t2);
-			append(div1, t3);
+			append(section, div1);
+			append(div1, img);
+			append(div1, t0);
 			append(div1, div0);
 			append(div0, a);
-			append(a, t4);
-			append(div1, t5);
-			append(div1, img);
+			append(a, t1);
 		},
 		p(ctx, [dirty]) {
-			if (dirty & /*title*/ 1) set_data(t0, /*title*/ ctx[0]);
-			if (dirty & /*body*/ 2) set_data(t2, /*body*/ ctx[1]);
-			if (dirty & /*link*/ 4 && t4_value !== (t4_value = /*link*/ ctx[2].title + "")) set_data(t4, t4_value);
-
-			if (dirty & /*link*/ 4 && a_href_value !== (a_href_value = /*link*/ ctx[2].url)) {
-				attr(a, "href", a_href_value);
+			if (dirty & /*image*/ 2 && img.src !== (img_src_value = "assets" + /*image*/ ctx[1])) {
+				attr(img, "src", img_src_value);
 			}
 
-			if (dirty & /*image*/ 8 && img.src !== (img_src_value = "assets" + /*image*/ ctx[3])) {
-				attr(img, "src", img_src_value);
+			if (dirty & /*link*/ 1 && t1_value !== (t1_value = /*link*/ ctx[0].title + "")) set_data(t1, t1_value);
+
+			if (dirty & /*link*/ 1 && a_href_value !== (a_href_value = /*link*/ ctx[0].url)) {
+				attr(a, "href", a_href_value);
 			}
 		},
 		i: noop,
@@ -151,25 +95,20 @@ function create_fragment(ctx) {
 }
 
 function instance($$self, $$props, $$invalidate) {
-	let { title } = $$props,
-		{ body } = $$props,
-		{ link } = $$props,
-		{ image } = $$props;
+	let { link } = $$props, { image } = $$props;
 
 	$$self.$$set = $$props => {
-		if ("title" in $$props) $$invalidate(0, title = $$props.title);
-		if ("body" in $$props) $$invalidate(1, body = $$props.body);
-		if ("link" in $$props) $$invalidate(2, link = $$props.link);
-		if ("image" in $$props) $$invalidate(3, image = $$props.image);
+		if ("link" in $$props) $$invalidate(0, link = $$props.link);
+		if ("image" in $$props) $$invalidate(1, image = $$props.image);
 	};
 
-	return [title, body, link, image];
+	return [link, image];
 }
 
 class Component extends SvelteComponent {
 	constructor(options) {
 		super();
-		init(this, options, instance, create_fragment, safe_not_equal, { title: 0, body: 1, link: 2, image: 3 });
+		init(this, options, instance, create_fragment, safe_not_equal, { link: 0, image: 1 });
 	}
 }
 

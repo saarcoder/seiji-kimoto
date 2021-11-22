@@ -121,7 +121,7 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			attr(div, "class", "container");
+			attr(div, "class", "container svelte-tu0sfj");
 			attr(header, "class", "navigation");
 			attr(html, "lang", "en");
 		},
