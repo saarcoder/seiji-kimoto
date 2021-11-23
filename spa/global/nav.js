@@ -43,13 +43,6 @@ function create_fragment(ctx) {
 	let li3;
 	let a4;
 	let t8;
-	let t9;
-	let li4;
-	let a5;
-	let t10;
-	let t11;
-	let a6;
-	let t12;
 
 	return {
 		c() {
@@ -68,37 +61,23 @@ function create_fragment(ctx) {
 			t3 = space();
 			li1 = element("li");
 			a2 = element("a");
-			t4 = text("Arbeiten");
+			t4 = text("Interpretation");
 			t5 = space();
 			li2 = element("li");
 			a3 = element("a");
-			t6 = text("Interpretation");
+			t6 = text("Publikationen");
 			t7 = space();
 			li3 = element("li");
 			a4 = element("a");
-			t8 = text("Publikationen");
-			t9 = space();
-			li4 = element("li");
-			a5 = element("a");
-			t10 = text("Vita");
-			t11 = space();
-			a6 = element("a");
-			t12 = text("Get Started");
+			t8 = text("Vita");
 			this.h();
 		},
 		l(nodes) {
 			nav = claim_element(nodes, "NAV", { class: true });
 			var nav_nodes = children(nav);
-			a0 = claim_element(nav_nodes, "A", { class: true, href: true });
+			a0 = claim_element(nav_nodes, "A", { href: true });
 			var a0_nodes = children(a0);
-
-			img = claim_element(a0_nodes, "IMG", {
-				width: true,
-				class: true,
-				src: true,
-				alt: true
-			});
-
+			img = claim_element(a0_nodes, "IMG", { src: true, alt: true });
 			a0_nodes.forEach(detach);
 			t0 = claim_space(nav_nodes);
 
@@ -131,7 +110,7 @@ function create_fragment(ctx) {
 			var li1_nodes = children(li1);
 			a2 = claim_element(li1_nodes, "A", { class: true, href: true });
 			var a2_nodes = children(a2);
-			t4 = claim_text(a2_nodes, "Arbeiten");
+			t4 = claim_text(a2_nodes, "Interpretation");
 			a2_nodes.forEach(detach);
 			li1_nodes.forEach(detach);
 			t5 = claim_space(ul_nodes);
@@ -139,7 +118,7 @@ function create_fragment(ctx) {
 			var li2_nodes = children(li2);
 			a3 = claim_element(li2_nodes, "A", { class: true, href: true });
 			var a3_nodes = children(a3);
-			t6 = claim_text(a3_nodes, "Interpretation");
+			t6 = claim_text(a3_nodes, "Publikationen");
 			a3_nodes.forEach(detach);
 			li2_nodes.forEach(detach);
 			t7 = claim_space(ul_nodes);
@@ -147,33 +126,17 @@ function create_fragment(ctx) {
 			var li3_nodes = children(li3);
 			a4 = claim_element(li3_nodes, "A", { class: true, href: true });
 			var a4_nodes = children(a4);
-			t8 = claim_text(a4_nodes, "Publikationen");
+			t8 = claim_text(a4_nodes, "Vita");
 			a4_nodes.forEach(detach);
 			li3_nodes.forEach(detach);
-			t9 = claim_space(ul_nodes);
-			li4 = claim_element(ul_nodes, "LI", { class: true });
-			var li4_nodes = children(li4);
-			a5 = claim_element(li4_nodes, "A", { class: true, href: true });
-			var a5_nodes = children(a5);
-			t10 = claim_text(a5_nodes, "Vita");
-			a5_nodes.forEach(detach);
-			li4_nodes.forEach(detach);
 			ul_nodes.forEach(detach);
-			t11 = claim_space(div_nodes);
-			a6 = claim_element(div_nodes, "A", { href: true, class: true });
-			var a6_nodes = children(a6);
-			t12 = claim_text(a6_nodes, "Get Started");
-			a6_nodes.forEach(detach);
 			div_nodes.forEach(detach);
 			nav_nodes.forEach(detach);
 			this.h();
 		},
 		h() {
-			attr(img, "width", "200px");
-			attr(img, "class", "img-fluid");
 			if (img.src !== (img_src_value = "assets/logo.png")) attr(img, "src", img_src_value);
-			attr(img, "alt", "Bigspring Hugo");
-			attr(a0, "class", "navbar-brand");
+			attr(img, "alt", "Logo Seiji Kimoto");
 			attr(a0, "href", ".");
 			attr(i, "class", "ti-menu h3");
 			attr(button, "class", "navbar-toggler border-0 collapsed");
@@ -181,24 +144,19 @@ function create_fragment(ctx) {
 			attr(button, "data-toggle", "collapse");
 			attr(button, "data-target", "#navigation");
 			attr(button, "aria-expanded", "false");
-			attr(a1, "class", "nav-link");
+			attr(a1, "class", "nav-link svelte-1aqovqu");
 			attr(a1, "href", "ausstellungen");
-			attr(li0, "class", "nav-item");
-			attr(a2, "class", "nav-link");
-			attr(a2, "href", "arbeiten");
-			attr(li1, "class", "nav-item");
-			attr(a3, "class", "nav-link");
-			attr(a3, "href", "interpretation");
-			attr(li2, "class", "nav-item");
-			attr(a4, "class", "nav-link");
-			attr(a4, "href", "publikationen");
-			attr(li3, "class", "nav-item");
-			attr(a5, "class", "nav-link");
-			attr(a5, "href", "kuenstler");
-			attr(li4, "class", "nav-item");
-			attr(ul, "class", "navbar-nav mx-auto");
-			attr(a6, "href", "contact");
-			attr(a6, "class", "btn btn-sm btn-primary ml-3");
+			attr(li0, "class", "nav-item svelte-1aqovqu");
+			attr(a2, "class", "nav-link svelte-1aqovqu");
+			attr(a2, "href", "arbeit\n        ￼\n        It’s a team of experienced and skilled people with distributions\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.\n        \n        Check it out \n        ￼retation");
+			attr(li1, "class", "nav-item svelte-1aqovqu");
+			attr(a3, "class", "nav-link svelte-1aqovqu");
+			attr(a3, "href", "publikationen");
+			attr(li2, "class", "nav-item svelte-1aqovqu");
+			attr(a4, "class", "nav-link svelte-1aqovqu");
+			attr(a4, "href", "kuenstler");
+			attr(li3, "class", "nav-item svelte-1aqovqu");
+			attr(ul, "class", "navbar-nav mx-auto svelte-1aqovqu");
 			attr(div, "class", "navbar-collapse text-center collapse");
 			attr(div, "id", "navigation");
 			attr(nav, "class", "navbar navbar-expand-lg navbar-light bg-transparent");
@@ -228,13 +186,6 @@ function create_fragment(ctx) {
 			append(ul, li3);
 			append(li3, a4);
 			append(a4, t8);
-			append(ul, t9);
-			append(ul, li4);
-			append(li4, a5);
-			append(a5, t10);
-			append(div, t11);
-			append(div, a6);
-			append(a6, t12);
 		},
 		p: noop,
 		i: noop,

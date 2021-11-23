@@ -91,12 +91,12 @@ function create_else_block_2(ctx) {
 		h() {
 			attr(span0, "aria-hidden", "true");
 			attr(a0, "href", "ausstellungen");
-			attr(a0, "class", "page-link svelte-17pgrx9");
+			attr(a0, "class", "page-link svelte-cvfad5");
 			attr(a0, "aria-label", "First");
 			attr(li0, "class", "page-item disabled");
 			attr(span1, "aria-hidden", "true");
 			attr(a1, "href", a1_href_value = "ausstellungen/" + (/*currentPage*/ ctx[0] - 1));
-			attr(a1, "class", "page-link svelte-17pgrx9");
+			attr(a1, "class", "page-link svelte-cvfad5");
 			attr(a1, "aria-label", "Previous");
 			attr(li1, "class", "page-item disabled");
 		},
@@ -189,12 +189,12 @@ function create_if_block_2(ctx) {
 		h() {
 			attr(span0, "aria-hidden", "true");
 			attr(a0, "href", "ausstellungen");
-			attr(a0, "class", "page-link svelte-17pgrx9");
+			attr(a0, "class", "page-link svelte-cvfad5");
 			attr(a0, "aria-label", "First");
 			attr(li0, "class", "page-item");
 			attr(span1, "aria-hidden", "true");
 			attr(a1, "href", a1_href_value = "ausstellungen/" + (/*currentPage*/ ctx[0] - 1));
-			attr(a1, "class", "page-link svelte-17pgrx9");
+			attr(a1, "class", "page-link svelte-cvfad5");
 			attr(a1, "aria-label", "Previous");
 			attr(li1, "class", "page-item");
 		},
@@ -248,7 +248,7 @@ function create_else_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "class", "page-link svelte-17pgrx9");
+			attr(a, "class", "page-link svelte-cvfad5");
 			attr(a, "href", a_href_value = "ausstellungen/" + (/*i*/ ctx[4] + 1));
 			attr(li, "class", "page-item");
 		},
@@ -289,7 +289,7 @@ function create_if_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "class", "page-link svelte-17pgrx9");
+			attr(a, "class", "page-link svelte-cvfad5");
 			attr(a, "href", a_href_value = "ausstellungen/" + (/*i*/ ctx[4] + 1));
 			attr(li, "class", "page-item active");
 		},
@@ -413,12 +413,12 @@ function create_else_block(ctx) {
 		h() {
 			attr(span0, "aria-hidden", "true");
 			attr(a0, "href", a0_href_value = "ausstellungen/" + (/*currentPage*/ ctx[0] + 1));
-			attr(a0, "class", "page-link svelte-17pgrx9");
+			attr(a0, "class", "page-link svelte-cvfad5");
 			attr(a0, "aria-label", "Next");
 			attr(li0, "class", "page-item disabled");
 			attr(span1, "aria-hidden", "true");
 			attr(a1, "href", a1_href_value = "ausstellungen/" + /*totalPages*/ ctx[1]);
-			attr(a1, "class", "page-link svelte-17pgrx9");
+			attr(a1, "class", "page-link svelte-cvfad5");
 			attr(a1, "aria-label", "Last");
 			attr(li1, "class", "page-item disabled");
 		},
@@ -516,12 +516,12 @@ function create_if_block(ctx) {
 		h() {
 			attr(span0, "aria-hidden", "true");
 			attr(a0, "href", a0_href_value = "ausstellungen/" + (/*currentPage*/ ctx[0] + 1));
-			attr(a0, "class", "page-link svelte-17pgrx9");
+			attr(a0, "class", "page-link svelte-cvfad5");
 			attr(a0, "aria-label", "Next");
 			attr(li0, "class", "page-item");
 			attr(span1, "aria-hidden", "true");
 			attr(a1, "href", a1_href_value = "ausstellungen/" + /*totalPages*/ ctx[1]);
-			attr(a1, "class", "page-link svelte-17pgrx9");
+			attr(a1, "class", "page-link svelte-cvfad5");
 			attr(a1, "aria-label", "Last");
 			attr(li1, "class", "page-item");
 		},
@@ -610,7 +610,7 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			attr(ul, "class", "pagination svelte-17pgrx9");
+			attr(ul, "class", "pagination svelte-cvfad5");
 		},
 		m(target, anchor) {
 			insert(target, ul, anchor);
