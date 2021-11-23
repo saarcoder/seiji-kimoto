@@ -42,8 +42,6 @@
 
 <style>
   ul {
-    max-width: 100%;
-    width: 960px;
     background-color: transparent;
     opacity: 0.85;
     padding: 15px 30px;
@@ -74,7 +72,7 @@
     position: absolute;
     bottom: -0.25rem;
     width: 0px;
-    height: 5px;
+    height: 3px;
     margin: 5px 0 0;
     transition: width 300ms ease-out, opacity 300ms ease-out;
     opacity: 0;
