@@ -93,11 +93,11 @@
     color: #777;
   }
   .pagination .page-item.active .page-link {
-    background: #0aa8a7;
+    background: darkred;
     color: #fff;
   }
   .pagination .page-item .page-link:hover {
-    background: #0aa8a7;
+    background: darkred;
     color: #fff;
   }
 </style>

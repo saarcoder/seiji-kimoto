@@ -1,11 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-  <a class="navbar-brand" href=".">
-    <img
-      width="200px"
-      class="img-fluid"
-      src="assets/logo.png"
-      alt="Bigspring Hugo"
-    />
+  <a href=".">
+    <img src="assets/logo.png" alt="Logo Seiji Kimoto" />
   </a>
 
   <button
@@ -24,10 +19,16 @@
         <a class="nav-link" href="ausstellungen">Ausstellungen</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="arbeiten">Arbeiten</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="interpretation">Interpretation</a>
+        <a
+          class="nav-link"
+          href="arbeit
+        ￼
+        It’s a team of experienced and skilled people with distributions
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.
+        
+        Check it out 
+        ￼retation">Interpretation</a
+        >
       </li>
       <li class="nav-item">
         <a class="nav-link" href="publikationen">Publikationen</a>
@@ -36,7 +37,52 @@
         <a class="nav-link" href="kuenstler">Vita</a>
       </li>
     </ul>
-
-    <a href="contact" class="btn btn-sm btn-primary ml-3">Get Started</a>
   </div>
 </nav>
+
+<style>
+  ul {
+    max-width: 100%;
+    width: 960px;
+    background-color: transparent;
+    opacity: 0.85;
+    padding: 15px 30px;
+    margin: 0 auto 30px;
+  }
+  li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 0 0 45px;
+  }
+  a.nav-link {
+    text-align: center;
+    margin: 0 1rem;
+    padding: 0;
+    transition: left 300ms ease-out, right 300ms ease-out;
+    position: relative;
+  }
+  a.nav-link::before {
+    left: 50%;
+  }
+  a.nav-link::after {
+    right: 50%;
+  }
+  a.nav-link::before,
+  a.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: -0.25rem;
+    width: 0px;
+    height: 5px;
+    margin: 5px 0 0;
+    transition: width 300ms ease-out, opacity 300ms ease-out;
+    opacity: 0;
+    background-color: darkred;
+  }
+  li:hover a::before,
+  li:hover a::after {
+    width: 50%;
+    opacity: 1;
+  }
+</style>
