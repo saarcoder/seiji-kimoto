@@ -15,7 +15,7 @@ import {
 	safe_not_equal,
 	space,
 	text
-} from '../web_modules/svelte/internal/index.mjs';
+} from "svelte/internal";
 
 function create_fragment(ctx) {
 	let footer;
@@ -89,22 +89,14 @@ function create_fragment(ctx) {
 	let a11;
 	let i1;
 	let t28;
-	let li11;
-	let a12;
-	let i2;
-	let t29;
-	let li12;
-	let a13;
-	let i3;
-	let t30;
 	let div8;
 	let small;
+	let t29;
+	let a12;
+	let t30;
 	let t31;
-	let a14;
+	let a13;
 	let t32;
-	let t33;
-	let a15;
-	let t34;
 
 	return {
 		c() {
@@ -178,22 +170,14 @@ function create_fragment(ctx) {
 			a11 = element("a");
 			i1 = element("i");
 			t28 = space();
-			li11 = element("li");
-			a12 = element("a");
-			i2 = element("i");
-			t29 = space();
-			li12 = element("li");
-			a13 = element("a");
-			i3 = element("i");
-			t30 = space();
 			div8 = element("div");
 			small = element("small");
-			t31 = text("Designed By ");
-			a14 = element("a");
-			t32 = text("Themefisher");
-			t33 = text("\n        Developed By ");
-			a15 = element("a");
-			t34 = text("Jantcu");
+			t29 = text("Designed By ");
+			a12 = element("a");
+			t30 = text("Themefisher");
+			t31 = text("\n        Developed By ");
+			a13 = element("a");
+			t32 = text("Jantcu");
 			this.h();
 		},
 		l(nodes) {
@@ -346,42 +330,24 @@ function create_fragment(ctx) {
 			children(i1).forEach(detach);
 			a11_nodes.forEach(detach);
 			li10_nodes.forEach(detach);
-			t28 = claim_space(ul3_nodes);
-			li11 = claim_element(ul3_nodes, "LI", { class: true });
-			var li11_nodes = children(li11);
-			a12 = claim_element(li11_nodes, "A", { href: true, "aria-label": true });
-			var a12_nodes = children(a12);
-			i2 = claim_element(a12_nodes, "I", { class: true });
-			children(i2).forEach(detach);
-			a12_nodes.forEach(detach);
-			li11_nodes.forEach(detach);
-			t29 = claim_space(ul3_nodes);
-			li12 = claim_element(ul3_nodes, "LI", { class: true });
-			var li12_nodes = children(li12);
-			a13 = claim_element(li12_nodes, "A", { href: true, "aria-label": true });
-			var a13_nodes = children(a13);
-			i3 = claim_element(a13_nodes, "I", { class: true });
-			children(i3).forEach(detach);
-			a13_nodes.forEach(detach);
-			li12_nodes.forEach(detach);
 			ul3_nodes.forEach(detach);
 			div6_nodes.forEach(detach);
 			div7_nodes.forEach(detach);
-			t30 = claim_space(div9_nodes);
+			t28 = claim_space(div9_nodes);
 			div8 = claim_element(div9_nodes, "DIV", { class: true });
 			var div8_nodes = children(div8);
 			small = claim_element(div8_nodes, "SMALL", { class: true });
 			var small_nodes = children(small);
-			t31 = claim_text(small_nodes, "Designed By ");
-			a14 = claim_element(small_nodes, "A", { href: true, class: true });
-			var a14_nodes = children(a14);
-			t32 = claim_text(a14_nodes, "Themefisher");
-			a14_nodes.forEach(detach);
-			t33 = claim_text(small_nodes, "\n        Developed By ");
-			a15 = claim_element(small_nodes, "A", { href: true, class: true });
-			var a15_nodes = children(a15);
-			t34 = claim_text(a15_nodes, "Jantcu");
-			a15_nodes.forEach(detach);
+			t29 = claim_text(small_nodes, "Designed By ");
+			a12 = claim_element(small_nodes, "A", { href: true, class: true });
+			var a12_nodes = children(a12);
+			t30 = claim_text(a12_nodes, "Themefisher");
+			a12_nodes.forEach(detach);
+			t31 = claim_text(small_nodes, "\n        Developed By ");
+			a13 = claim_element(small_nodes, "A", { href: true, class: true });
+			var a13_nodes = children(a13);
+			t32 = claim_text(a13_nodes, "Jantcu");
+			a13_nodes.forEach(detach);
 			small_nodes.forEach(detach);
 			div8_nodes.forEach(detach);
 			div9_nodes.forEach(detach);
@@ -427,25 +393,17 @@ function create_fragment(ctx) {
 			attr(a10, "href", "https://www.facebook.com/jantcu/");
 			attr(a10, "aria-label", "Facebook");
 			attr(li9, "class", "list-inline-item");
-			attr(i1, "class", "ti-twitter-alt svelte-b4yotg");
-			attr(a11, "href", "https://twitter.com/plentico");
-			attr(a11, "aria-label", "Twitter");
+			attr(i1, "class", "ti-instagram svelte-b4yotg");
+			attr(a11, "href", "https://www.instagram.com/seiji_kimoto_/");
+			attr(a11, "aria-label", "Instagram");
 			attr(li10, "class", "list-inline-item");
-			attr(i2, "class", "ti-skype svelte-b4yotg");
-			attr(a12, "href", ".");
-			attr(a12, "aria-label", "Skype");
-			attr(li11, "class", "list-inline-item");
-			attr(i3, "class", "ti-linkedin svelte-b4yotg");
-			attr(a13, "href", "https://www.linkedin.com/company/jantcu");
-			attr(a13, "aria-label", "LinkedIn");
-			attr(li12, "class", "list-inline-item");
 			attr(ul3, "class", "list-inline social-icons svelte-b4yotg");
 			attr(div6, "class", "col-md-3 col-sm-6 mb-5");
 			attr(div7, "class", "row");
-			attr(a14, "href", "https://themefisher.com/");
-			attr(a14, "class", "svelte-b4yotg");
-			attr(a15, "href", "https://jantcu.com/");
-			attr(a15, "class", "svelte-b4yotg");
+			attr(a12, "href", "https://themefisher.com/");
+			attr(a12, "class", "svelte-b4yotg");
+			attr(a13, "href", "https://jantcu.com/");
+			attr(a13, "class", "svelte-b4yotg");
 			attr(small, "class", "content attribution svelte-b4yotg");
 			attr(div8, "class", "border-top border-default text-center py-4 mt-4");
 			attr(div9, "class", "container");
@@ -521,23 +479,15 @@ function create_fragment(ctx) {
 			append(ul3, li10);
 			append(li10, a11);
 			append(a11, i1);
-			append(ul3, t28);
-			append(ul3, li11);
-			append(li11, a12);
-			append(a12, i2);
-			append(ul3, t29);
-			append(ul3, li12);
-			append(li12, a13);
-			append(a13, i3);
-			append(div9, t30);
+			append(div9, t28);
 			append(div9, div8);
 			append(div8, small);
+			append(small, t29);
+			append(small, a12);
+			append(a12, t30);
 			append(small, t31);
-			append(small, a14);
-			append(a14, t32);
-			append(small, t33);
-			append(small, a15);
-			append(a15, t34);
+			append(small, a13);
+			append(a13, t32);
 		},
 		p: noop,
 		i: noop,

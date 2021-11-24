@@ -15,7 +15,7 @@ import {
 	safe_not_equal,
 	set_data,
 	text
-} from '../web_modules/svelte/internal/index.mjs';
+} from "svelte/internal";
 
 function create_fragment(ctx) {
 	let section;

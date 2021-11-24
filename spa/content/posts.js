@@ -16,20 +16,24 @@ import {
 	set_data,
 	space,
 	text
-} from '../web_modules/svelte/internal/index.mjs';
+} from "svelte/internal";
 
 function create_fragment(ctx) {
 	let section;
 	let div2;
 	let div1;
 	let div0;
+	let figure;
 	let img;
 	let img_src_value;
 	let img_alt_value;
 	let t0;
-	let h2;
+	let figcaption;
 	let t1;
 	let t2;
+	let h2;
+	let t3;
+	let t4;
 	let p;
 
 	return {
@@ -38,11 +42,15 @@ function create_fragment(ctx) {
 			div2 = element("div");
 			div1 = element("div");
 			div0 = element("div");
+			figure = element("figure");
 			img = element("img");
 			t0 = space();
-			h2 = element("h2");
-			t1 = text(/*title*/ ctx[0]);
+			figcaption = element("figcaption");
+			t1 = text(/*unterschrift*/ ctx[3]);
 			t2 = space();
+			h2 = element("h2");
+			t3 = text(/*title*/ ctx[0]);
+			t4 = space();
 			p = element("p");
 			this.h();
 		},
@@ -55,13 +63,21 @@ function create_fragment(ctx) {
 			var div1_nodes = children(div1);
 			div0 = claim_element(div1_nodes, "DIV", { class: true });
 			var div0_nodes = children(div0);
-			img = claim_element(div0_nodes, "IMG", { src: true, alt: true, class: true });
-			t0 = claim_space(div0_nodes);
+			figure = claim_element(div0_nodes, "FIGURE", { class: true });
+			var figure_nodes = children(figure);
+			img = claim_element(figure_nodes, "IMG", { src: true, alt: true, class: true });
+			t0 = claim_space(figure_nodes);
+			figcaption = claim_element(figure_nodes, "FIGCAPTION", { class: true });
+			var figcaption_nodes = children(figcaption);
+			t1 = claim_text(figcaption_nodes, /*unterschrift*/ ctx[3]);
+			figcaption_nodes.forEach(detach);
+			figure_nodes.forEach(detach);
+			t2 = claim_space(div0_nodes);
 			h2 = claim_element(div0_nodes, "H2", { class: true });
 			var h2_nodes = children(h2);
-			t1 = claim_text(h2_nodes, /*title*/ ctx[0]);
+			t3 = claim_text(h2_nodes, /*title*/ ctx[0]);
 			h2_nodes.forEach(detach);
-			t2 = claim_space(div0_nodes);
+			t4 = claim_space(div0_nodes);
 			p = claim_element(div0_nodes, "P", {});
 			var p_nodes = children(p);
 			p_nodes.forEach(detach);
@@ -74,7 +90,9 @@ function create_fragment(ctx) {
 		h() {
 			if (img.src !== (img_src_value = "assets/" + /*image*/ ctx[2].src)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*image*/ ctx[2].alt);
-			attr(img, "class", "img-fluid w-100 rounded mb-4");
+			attr(img, "class", "img-fluid w-100 rounded");
+			attr(figcaption, "class", "text-right mt-2");
+			attr(figure, "class", "mb-4");
 			attr(h2, "class", "mb-4");
 			attr(div0, "class", "col-lg-8 mx-auto");
 			attr(div1, "class", "row");
@@ -86,11 +104,15 @@ function create_fragment(ctx) {
 			append(section, div2);
 			append(div2, div1);
 			append(div1, div0);
-			append(div0, img);
-			append(div0, t0);
-			append(div0, h2);
-			append(h2, t1);
+			append(div0, figure);
+			append(figure, img);
+			append(figure, t0);
+			append(figure, figcaption);
+			append(figcaption, t1);
 			append(div0, t2);
+			append(div0, h2);
+			append(h2, t3);
+			append(div0, t4);
 			append(div0, p);
 			p.innerHTML = /*body*/ ctx[1];
 		},
@@ -103,7 +125,8 @@ function create_fragment(ctx) {
 				attr(img, "alt", img_alt_value);
 			}
 
-			if (dirty & /*title*/ 1) set_data(t1, /*title*/ ctx[0]);
+			if (dirty & /*unterschrift*/ 8) set_data(t1, /*unterschrift*/ ctx[3]);
+			if (dirty & /*title*/ 1) set_data(t3, /*title*/ ctx[0]);
 			if (dirty & /*body*/ 2) p.innerHTML = /*body*/ ctx[1];;
 		},
 		i: noop,
@@ -115,21 +138,31 @@ function create_fragment(ctx) {
 }
 
 function instance($$self, $$props, $$invalidate) {
-	let { title } = $$props, { body } = $$props, { image } = $$props;
+	let { title } = $$props,
+		{ body } = $$props,
+		{ image } = $$props,
+		{ unterschrift } = $$props;
 
 	$$self.$$set = $$props => {
 		if ("title" in $$props) $$invalidate(0, title = $$props.title);
 		if ("body" in $$props) $$invalidate(1, body = $$props.body);
 		if ("image" in $$props) $$invalidate(2, image = $$props.image);
+		if ("unterschrift" in $$props) $$invalidate(3, unterschrift = $$props.unterschrift);
 	};
 
-	return [title, body, image];
+	return [title, body, image, unterschrift];
 }
 
 class Component extends SvelteComponent {
 	constructor(options) {
 		super();
-		init(this, options, instance, create_fragment, safe_not_equal, { title: 0, body: 1, image: 2 });
+
+		init(this, options, instance, create_fragment, safe_not_equal, {
+			title: 0,
+			body: 1,
+			image: 2,
+			unterschrift: 3
+		});
 	}
 }
 

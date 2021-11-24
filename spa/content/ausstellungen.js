@@ -24,9 +24,9 @@ import {
 	text,
 	transition_in,
 	transition_out
-} from '../web_modules/svelte/internal/index.mjs';
+} from "svelte/internal";
 
-import Pagination from '../components/pagination.js';
+import Pagination from "../components/pagination.svelte";
 
 function get_each_context(ctx, list, i) {
 	const child_ctx = ctx.slice();
@@ -58,11 +58,10 @@ function create_each_block_1(ctx) {
 	let a0_href_value;
 	let t2;
 	let p;
-	let t3_value = /*post*/ ctx[9].fields.body.substring(0, 175).replace(/(<([^>]+)>)/gi, "") + "";
+	let raw_value = /*post*/ ctx[9].fields.intro + "";
 	let t3;
-	let t4;
 	let a1;
-	let t5;
+	let t4;
 	let a1_href_value;
 
 	return {
@@ -78,10 +77,9 @@ function create_each_block_1(ctx) {
 			t1 = text(t1_value);
 			t2 = space();
 			p = element("p");
-			t3 = text(t3_value);
-			t4 = space();
+			t3 = space();
 			a1 = element("a");
-			t5 = text("Weiterlesen");
+			t4 = text("Weiterlesen");
 			this.h();
 		},
 		l(nodes) {
@@ -106,12 +104,11 @@ function create_each_block_1(ctx) {
 			t2 = claim_space(div1_nodes);
 			p = claim_element(div1_nodes, "P", { class: true });
 			var p_nodes = children(p);
-			t3 = claim_text(p_nodes, t3_value);
 			p_nodes.forEach(detach);
-			t4 = claim_space(div1_nodes);
+			t3 = claim_space(div1_nodes);
 			a1 = claim_element(div1_nodes, "A", { href: true, class: true });
 			var a1_nodes = children(a1);
-			t5 = claim_text(a1_nodes, "Weiterlesen");
+			t4 = claim_text(a1_nodes, "Weiterlesen");
 			a1_nodes.forEach(detach);
 			div1_nodes.forEach(detach);
 			div2_nodes.forEach(detach);
@@ -144,10 +141,10 @@ function create_each_block_1(ctx) {
 			append(a0, t1);
 			append(div1, t2);
 			append(div1, p);
-			append(p, t3);
-			append(div1, t4);
+			p.innerHTML = raw_value;
+			append(div1, t3);
 			append(div1, a1);
-			append(a1, t5);
+			append(a1, t4);
 		},
 		p(ctx, dirty) {
 			if (dirty & /*allContent*/ 2 && img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.image.src)) {
@@ -164,7 +161,7 @@ function create_each_block_1(ctx) {
 				attr(a0, "href", a0_href_value);
 			}
 
-			if (dirty & /*allContent*/ 2 && t3_value !== (t3_value = /*post*/ ctx[9].fields.body.substring(0, 175).replace(/(<([^>]+)>)/gi, "") + "")) set_data(t3, t3_value);
+			if (dirty & /*allContent*/ 2 && raw_value !== (raw_value = /*post*/ ctx[9].fields.intro + "")) p.innerHTML = raw_value;;
 
 			if (dirty & /*allContent*/ 2 && a1_href_value !== (a1_href_value = /*post*/ ctx[9].path)) {
 				attr(a1, "href", a1_href_value);
@@ -176,7 +173,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (48:8) {#if i >= postRangeLow && i < postRangeHigh}
+// (46:8) {#if i >= postRangeLow && i < postRangeHigh}
 function create_if_block(ctx) {
 	let div2;
 	let div1;
@@ -192,11 +189,10 @@ function create_if_block(ctx) {
 	let a0_href_value;
 	let t2;
 	let p;
-	let t3_value = /*post*/ ctx[9].fields.body.substring(0, 175).replace(/(<([^>]+)>)/gi, "") + "";
+	let raw_value = /*post*/ ctx[9].fields.intro + "";
 	let t3;
-	let t4;
 	let a1;
-	let t5;
+	let t4;
 	let a1_href_value;
 
 	return {
@@ -211,10 +207,9 @@ function create_if_block(ctx) {
 			t1 = text(t1_value);
 			t2 = space();
 			p = element("p");
-			t3 = text(t3_value);
-			t4 = space();
+			t3 = space();
 			a1 = element("a");
-			t5 = text("Weiterlesen");
+			t4 = text("Weiterlesen");
 			this.h();
 		},
 		l(nodes) {
@@ -236,12 +231,11 @@ function create_if_block(ctx) {
 			t2 = claim_space(div0_nodes);
 			p = claim_element(div0_nodes, "P", { class: true });
 			var p_nodes = children(p);
-			t3 = claim_text(p_nodes, t3_value);
 			p_nodes.forEach(detach);
-			t4 = claim_space(div0_nodes);
+			t3 = claim_space(div0_nodes);
 			a1 = claim_element(div0_nodes, "A", { href: true, class: true });
 			var a1_nodes = children(a1);
-			t5 = claim_text(a1_nodes, "Weiterlesen");
+			t4 = claim_text(a1_nodes, "Weiterlesen");
 			a1_nodes.forEach(detach);
 			div0_nodes.forEach(detach);
 			div1_nodes.forEach(detach);
@@ -272,10 +266,10 @@ function create_if_block(ctx) {
 			append(a0, t1);
 			append(div0, t2);
 			append(div0, p);
-			append(p, t3);
-			append(div0, t4);
+			p.innerHTML = raw_value;
+			append(div0, t3);
 			append(div0, a1);
-			append(a1, t5);
+			append(a1, t4);
 		},
 		p: noop,
 		d(detaching) {
@@ -284,7 +278,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (47:6) {#each allPosts as post, i}
+// (45:6) {#each allPosts as post, i}
 function create_each_block(ctx) {
 	let if_block_anchor;
 	let if_block = /*i*/ ctx[11] >= /*postRangeLow*/ ctx[4] && /*i*/ ctx[11] < /*postRangeHigh*/ ctx[3] && create_if_block(ctx);
