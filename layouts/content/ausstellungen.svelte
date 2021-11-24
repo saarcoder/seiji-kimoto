@@ -34,9 +34,7 @@
                 <a href={post.path} class="post-title">{post.fields.title}</a>
               </h2>
               <p class="card-text">
-                {post.fields.body
-                  .substring(0, 175)
-                  .replace(/(<([^>]+)>)/gi, "")}
+                {@html post.fields.intro}
               </p>
               <a href={post.path} class="btn btn-primary">Weiterlesen</a>
             </div>
@@ -58,9 +56,7 @@
                   <a href={post.path} class="post-title">{post.fields.title}</a>
                 </h3>
                 <p class="card-text">
-                  {post.fields.body
-                    .substring(0, 175)
-                    .replace(/(<([^>]+)>)/gi, "")}
+                  {@html post.fields.intro}
                 </p>
                 <a href={post.path} class="btn btn-primary btn-sm"
                   >Weiterlesen</a

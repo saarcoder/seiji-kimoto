@@ -1,0 +1,20 @@
+{
+  "title": "Ausstellung Galerie mediArt",
+  "size": "width:900px; height:640px;",
+  "img": "images/Kimoto-Bertemes_mediArt.jpg",
+  "img_alt": "Kimoto mit Paul Bertemes, Vernissage Galerie mediArt",
+  "unterschrift": "Kimoto, Paul Bertemes, Vernissage mediArt",
+  "img_placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAGAAkDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQH/8QAIhAAAQMDAwUAAAAAAAAAAAAAAQIDBgAEBREiMRdRU5XS/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABgRAAMBAQAAAAAAAAAAAAAAAAABAjED/9oADAMBAAIRAxEAPwCrFyK7ksfnExxOSuLJjCqaeTbusBRUh5e1I3lIICByDye51zPr/KfM1662+KUoUS9QV0pYz//Z",
+  "intro_text": "Vom 05. März bis 12. April 2013 stellte Seiji Kimoto zum vierten Mal im espace mediArt in der Luxemburger Oberstadt Kalligrafien, Tuschebilder und Skulpturen aus. Die kalligrafischen Arbeiten setzen augenzwinkernd japanische Haikus sowie Zitate von Tucholsky, Ringelnatz und Twain um. In einem Workshop zeigte Kimoto Grundlagen der kalligrafischen Technik. Am 11. April gab Dr. Paul Bertemes eine Einführung in die Arbeit des Künstlers.",
+  "body_text": "",
+  "size2": "width:600px; height:869px;margin:0 150px;",
+  "img2": "images/Kalligrafie.jpg",
+  "img2_alt": "Kalligrafie Seiji Kimoto",
+  "img2_placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAJAAYDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAcI/8QAIBABAAEDAwUAAAAAAAAAAAAAAQIABBEDBSETFCIxQf/EABUBAQEAAAAAAAAAAAAAAAAAAAIE/8QAGREBAAIDAAAAAAAAAAAAAAAAAQACBFFS/9oADAMBAAIRAxEAPwDQ8tygXPdltcazLTjCVvDpRIOXKZQXjD5Poxwqqk9z8pQLmpU471P/2Q==",
+  "unterschrift2": "Kalligrafie",
+  "size3": "width:900px;height:600px;",
+  "img3": "images/Skulptur.jpg",
+  "img3_alt": "Holz-Skulptur Seiji Kimoto",
+  "img3_placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAGAAkDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAYH/8QAIhAAAQQBAgcAAAAAAAAAAAAAAQACBBEDBQcSFiNBU5PR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAaEQEAAgMBAAAAAAAAAAAAAAABAAIDESFR/9oADAMBAAIRAxEAPwChm7qa0N8YsBsybhhRoLmNjY3dPJkILjxtJpwqqIo2B2Wlc16l5WeofURCnVl8oBXXk//Z",
+  "unterschrift3": "Skulptur"
+}

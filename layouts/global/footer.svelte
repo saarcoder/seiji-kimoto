@@ -46,17 +46,9 @@
             >
           </li>
           <li class="list-inline-item">
-            <a href="https://twitter.com/plentico" aria-label="Twitter"
-              ><i class="ti-twitter-alt" /></a
-            >
-          </li>
-          <li class="list-inline-item">
-            <a href="." aria-label="Skype"><i class="ti-skype" /></a>
-          </li>
-          <li class="list-inline-item">
             <a
-              href="https://www.linkedin.com/company/jantcu"
-              aria-label="LinkedIn"><i class="ti-linkedin" /></a
+              href="https://www.instagram.com/seiji_kimoto_/"
+              aria-label="Instagram"><i class="ti-instagram" /></a
             >
           </li>
         </ul>
