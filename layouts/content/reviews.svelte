@@ -24,7 +24,7 @@
           <div class="row align-items-center">
             <div class="col-md-6 mb-4 mb-md-0">
               <img
-                src="assets/{post.fields.ima}"
+                src="assets/{post.fields.img}"
                 alt={post.fields.img_alt}
                 class="img-fluid rounded-lg w-100"
               />
@@ -47,8 +47,8 @@
           <div class="col-lg-4 col-sm-6 mb-5">
             <div class="card border-0">
               <img
-                src="assets/{post.fields.image.src}"
-                alt={post.fields.image.alt}
+                src="assets/{post.fields.img}"
+                alt={post.fields.img_alt}
                 class="card-img rounded-lg mb-4"
               />
               <div class="card-body p-0">
