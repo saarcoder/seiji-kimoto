@@ -1,11 +1,11 @@
 {
 	"build": "public",
   "baseurl": "/seiji-kimoto/",
-	"routes": {
-		"pages": ":filename",
-		"posts": "ausstellungen/:filename",
-		"ausstellungen": "ausstellungen/:paginate(totalPages)"
-	},
+  "routes": {
+	"pages": ":filename",
+	"artistFolder": "artist/:filename",
+	"kuenstlerVita": "kuenstler/:filename"
+  },
 	"local": {
 		"port": 3000
 	}

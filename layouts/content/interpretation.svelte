@@ -5,7 +5,7 @@
   $: currentPage = content.pager;
   const postsPerPage = 3;
   let allPosts = allContent.filter(
-    (content) => content.type == "ausstellungen"
+    (content) => content.type == "interpretation"
   );
   let totalPosts = allPosts.length;
   let totalPages = Math.ceil(totalPosts / postsPerPage);
@@ -13,6 +13,7 @@
   $: postRangeLow = postRangeHigh - postsPerPage;
 </script>
 
+e
 <section class="section pb-0">
   <div class="container text-center">
     <h1 class="display-3">{title}</h1>

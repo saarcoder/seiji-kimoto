@@ -4,9 +4,7 @@
 
   $: currentPage = content.pager;
   const postsPerPage = 3;
-  let allPosts = allContent.filter(
-    (content) => content.type == "ausstellungen"
-  );
+  let allPosts = allContent.filter((content) => content.type == "reviews");
   let totalPosts = allPosts.length;
   let totalPages = Math.ceil(totalPosts / postsPerPage);
   $: postRangeHigh = currentPage * postsPerPage;
@@ -26,7 +24,7 @@
           <div class="row align-items-center">
             <div class="col-md-6 mb-4 mb-md-0">
               <img
-                src="assets/{post.fields.img}"
+                src="assets/{post.fields.ima}"
                 alt={post.fields.img_alt}
                 class="img-fluid rounded-lg w-100"
               />

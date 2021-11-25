@@ -5,7 +5,7 @@
   $: currentPage = content.pager;
   const postsPerPage = 3;
   let allPosts = allContent.filter(
-    (content) => content.type == "ausstellungen"
+    (content) => content.type == "publikationen"
   );
   let totalPosts = allPosts.length;
   let totalPages = Math.ceil(totalPosts / postsPerPage);

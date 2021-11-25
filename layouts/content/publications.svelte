@@ -4,9 +4,7 @@
 
   $: currentPage = content.pager;
   const postsPerPage = 3;
-  let allPosts = allContent.filter(
-    (content) => content.type == "ausstellungen"
-  );
+  let allPosts = allContent.filter((content) => content.type == "publications");
   let totalPosts = allPosts.length;
   let totalPages = Math.ceil(totalPosts / postsPerPage);
   $: postRangeHigh = currentPage * postsPerPage;
