@@ -16,25 +16,19 @@
   <div class="navbar-collapse text-center collapse" id="navigation" style="">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item">
+        <a class="nav-link" href="arbeiten">Arbeiten</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="ausstellungen">Ausstellungen</a>
       </li>
       <li class="nav-item">
-        <a
-          class="nav-link"
-          href="arbeit
-        ￼
-        It’s a team of experienced and skilled people with distributions
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.
-        
-        Check it out 
-        ￼retation">Interpretation</a
-        >
+        <a class="nav-link" href="interpretationen">Interpretation</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="publikationen">Publikationen</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="kuenstler">Vita</a>
+        <a class="nav-link" href="kuenstler">Künstler</a>
       </li>
     </ul>
   </div>
