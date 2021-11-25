@@ -43,6 +43,10 @@ function create_fragment(ctx) {
 	let li3;
 	let a4;
 	let t8;
+	let t9;
+	let li4;
+	let a5;
+	let t10;
 
 	return {
 		c() {
@@ -57,19 +61,23 @@ function create_fragment(ctx) {
 			ul = element("ul");
 			li0 = element("li");
 			a1 = element("a");
-			t2 = text("Ausstellungen");
+			t2 = text("Arbeiten");
 			t3 = space();
 			li1 = element("li");
 			a2 = element("a");
-			t4 = text("Interpretation");
+			t4 = text("Ausstellungen");
 			t5 = space();
 			li2 = element("li");
 			a3 = element("a");
-			t6 = text("Publikationen");
+			t6 = text("Interpretation");
 			t7 = space();
 			li3 = element("li");
 			a4 = element("a");
-			t8 = text("Vita");
+			t8 = text("Publikationen");
+			t9 = space();
+			li4 = element("li");
+			a5 = element("a");
+			t10 = text("Künstler");
 			this.h();
 		},
 		l(nodes) {
@@ -102,7 +110,7 @@ function create_fragment(ctx) {
 			var li0_nodes = children(li0);
 			a1 = claim_element(li0_nodes, "A", { class: true, href: true });
 			var a1_nodes = children(a1);
-			t2 = claim_text(a1_nodes, "Ausstellungen");
+			t2 = claim_text(a1_nodes, "Arbeiten");
 			a1_nodes.forEach(detach);
 			li0_nodes.forEach(detach);
 			t3 = claim_space(ul_nodes);
@@ -110,7 +118,7 @@ function create_fragment(ctx) {
 			var li1_nodes = children(li1);
 			a2 = claim_element(li1_nodes, "A", { class: true, href: true });
 			var a2_nodes = children(a2);
-			t4 = claim_text(a2_nodes, "Interpretation");
+			t4 = claim_text(a2_nodes, "Ausstellungen");
 			a2_nodes.forEach(detach);
 			li1_nodes.forEach(detach);
 			t5 = claim_space(ul_nodes);
@@ -118,7 +126,7 @@ function create_fragment(ctx) {
 			var li2_nodes = children(li2);
 			a3 = claim_element(li2_nodes, "A", { class: true, href: true });
 			var a3_nodes = children(a3);
-			t6 = claim_text(a3_nodes, "Publikationen");
+			t6 = claim_text(a3_nodes, "Interpretation");
 			a3_nodes.forEach(detach);
 			li2_nodes.forEach(detach);
 			t7 = claim_space(ul_nodes);
@@ -126,9 +134,17 @@ function create_fragment(ctx) {
 			var li3_nodes = children(li3);
 			a4 = claim_element(li3_nodes, "A", { class: true, href: true });
 			var a4_nodes = children(a4);
-			t8 = claim_text(a4_nodes, "Vita");
+			t8 = claim_text(a4_nodes, "Publikationen");
 			a4_nodes.forEach(detach);
 			li3_nodes.forEach(detach);
+			t9 = claim_space(ul_nodes);
+			li4 = claim_element(ul_nodes, "LI", { class: true });
+			var li4_nodes = children(li4);
+			a5 = claim_element(li4_nodes, "A", { class: true, href: true });
+			var a5_nodes = children(a5);
+			t10 = claim_text(a5_nodes, "Künstler");
+			a5_nodes.forEach(detach);
+			li4_nodes.forEach(detach);
 			ul_nodes.forEach(detach);
 			div_nodes.forEach(detach);
 			nav_nodes.forEach(detach);
@@ -145,17 +161,20 @@ function create_fragment(ctx) {
 			attr(button, "data-target", "#navigation");
 			attr(button, "aria-expanded", "false");
 			attr(a1, "class", "nav-link svelte-18qhcq4");
-			attr(a1, "href", "ausstellungen");
+			attr(a1, "href", "arbeiten");
 			attr(li0, "class", "nav-item svelte-18qhcq4");
 			attr(a2, "class", "nav-link svelte-18qhcq4");
-			attr(a2, "href", "arbeit\n        ￼\n        It’s a team of experienced and skilled people with distributions\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.\n        \n        Check it out \n        ￼retation");
+			attr(a2, "href", "ausstellungen");
 			attr(li1, "class", "nav-item svelte-18qhcq4");
 			attr(a3, "class", "nav-link svelte-18qhcq4");
-			attr(a3, "href", "publikationen");
+			attr(a3, "href", "interpretationen");
 			attr(li2, "class", "nav-item svelte-18qhcq4");
 			attr(a4, "class", "nav-link svelte-18qhcq4");
-			attr(a4, "href", "kuenstler");
+			attr(a4, "href", "publikationen");
 			attr(li3, "class", "nav-item svelte-18qhcq4");
+			attr(a5, "class", "nav-link svelte-18qhcq4");
+			attr(a5, "href", "kuenstler");
+			attr(li4, "class", "nav-item svelte-18qhcq4");
 			attr(ul, "class", "navbar-nav mx-auto svelte-18qhcq4");
 			attr(div, "class", "navbar-collapse text-center collapse");
 			attr(div, "id", "navigation");
@@ -186,6 +205,10 @@ function create_fragment(ctx) {
 			append(ul, li3);
 			append(li3, a4);
 			append(a4, t8);
+			append(ul, t9);
+			append(ul, li4);
+			append(li4, a5);
+			append(a5, t10);
 		},
 		p: noop,
 		i: noop,

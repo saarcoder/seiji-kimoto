@@ -27,7 +27,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (5:0) {#each components as {name, fields}}
+// (5:0) {#each components as { name, fields }}
 function create_each_block(ctx) {
 	let switch_instance;
 	let switch_instance_anchor;
