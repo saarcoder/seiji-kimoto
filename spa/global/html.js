@@ -23,11 +23,11 @@ import {
 	space,
 	transition_in,
 	transition_out
-} from "svelte/internal";
+} from '../web_modules/svelte/internal/index.mjs';
 
-import Head from "./head.svelte";
-import Nav from "./nav.svelte";
-import Footer from "./footer.svelte";
+import Head from './head.js';
+import Nav from './nav.js';
+import Footer from './footer.js';
 
 function create_fragment(ctx) {
 	let html;

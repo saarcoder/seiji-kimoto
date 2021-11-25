@@ -24,9 +24,9 @@ import {
 	text,
 	transition_in,
 	transition_out
-} from "svelte/internal";
+} from '../web_modules/svelte/internal/index.mjs';
 
-import Pagination from "../components/pagination.svelte";
+import Pagination from '../components/pagination.js';
 
 function get_each_context(ctx, list, i) {
 	const child_ctx = ctx.slice();
@@ -116,7 +116,7 @@ function create_each_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			if (img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.ima)) attr(img, "src", img_src_value);
+			if (img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.img)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*post*/ ctx[9].fields.img_alt);
 			attr(img, "class", "img-fluid rounded-lg w-100");
 			attr(div0, "class", "col-md-6 mb-4 mb-md-0");
@@ -147,7 +147,7 @@ function create_each_block_1(ctx) {
 			append(a1, t4);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*allContent*/ 2 && img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.ima)) {
+			if (dirty & /*allContent*/ 2 && img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.img)) {
 				attr(img, "src", img_src_value);
 			}
 
@@ -243,8 +243,8 @@ function create_if_block(ctx) {
 			this.h();
 		},
 		h() {
-			if (img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.image.src)) attr(img, "src", img_src_value);
-			attr(img, "alt", img_alt_value = /*post*/ ctx[9].fields.image.alt);
+			if (img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.img)) attr(img, "src", img_src_value);
+			attr(img, "alt", img_alt_value = /*post*/ ctx[9].fields.img_alt);
 			attr(img, "class", "card-img rounded-lg mb-4");
 			attr(a0, "href", a0_href_value = /*post*/ ctx[9].path);
 			attr(a0, "class", "post-title svelte-16xmdp9");

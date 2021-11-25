@@ -3051,4 +3051,6 @@ const allContent = [{
     "title": "Critics"
 }
 
-},
+},];
+
+export default allContent;

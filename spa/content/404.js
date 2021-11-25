@@ -12,7 +12,7 @@ import {
 	noop,
 	safe_not_equal,
 	text
-} from "svelte/internal";
+} from '../web_modules/svelte/internal/index.mjs';
 
 function create_fragment(ctx) {
 	let h1;
