@@ -531,7 +531,7 @@ function instance($$self, $$props, $$invalidate) {
 	let postRangeHigh;
 	let postRangeLow;
 	let { title } = $$props, { allContent } = $$props, { content } = $$props;
-	let allPosts = allContent.filter(content => content.type == "ausstellungen");
+	let allPosts = allContent.filter(content => content.type == "publikationen");
 	let totalPosts = allPosts.length;
 	let totalPages = Math.ceil(totalPosts / postsPerPage);
 

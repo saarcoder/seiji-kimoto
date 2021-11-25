@@ -41,7 +41,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (24:6) {#each allContent.filter((content) => content.fields?.featured) as post}
+// (25:6) {#each allContent.filter((content) => content.fields?.featured) as post}
 function create_each_block_1(ctx) {
 	let div3;
 	let div2;
@@ -173,7 +173,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (48:8) {#if i >= postRangeLow && i < postRangeHigh}
+// (49:8) {#if i >= postRangeLow && i < postRangeHigh}
 function create_if_block(ctx) {
 	let div2;
 	let div1;
@@ -278,7 +278,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (47:6) {#each allPosts as post, i}
+// (48:6) {#each allPosts as post, i}
 function create_each_block(ctx) {
 	let if_block_anchor;
 	let if_block = /*i*/ ctx[11] >= /*postRangeLow*/ ctx[4] && /*i*/ ctx[11] < /*postRangeHigh*/ ctx[3] && create_if_block(ctx);
@@ -318,16 +318,17 @@ function create_each_block(ctx) {
 }
 
 function create_fragment(ctx) {
+	let t0;
 	let section0;
 	let div0;
 	let h1;
-	let t0;
 	let t1;
+	let t2;
 	let section1;
 	let div3;
 	let div2;
-	let t2;
 	let t3;
+	let t4;
 	let div1;
 	let pagination;
 	let current;
@@ -354,11 +355,12 @@ function create_fragment(ctx) {
 
 	return {
 		c() {
+			t0 = text("e\n");
 			section0 = element("section");
 			div0 = element("div");
 			h1 = element("h1");
-			t0 = text(/*title*/ ctx[0]);
-			t1 = space();
+			t1 = text(/*title*/ ctx[0]);
+			t2 = space();
 			section1 = element("section");
 			div3 = element("div");
 			div2 = element("div");
@@ -367,29 +369,30 @@ function create_fragment(ctx) {
 				each_blocks_1[i].c();
 			}
 
-			t2 = space();
+			t3 = space();
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
 				each_blocks[i].c();
 			}
 
-			t3 = space();
+			t4 = space();
 			div1 = element("div");
 			create_component(pagination.$$.fragment);
 			this.h();
 		},
 		l(nodes) {
+			t0 = claim_text(nodes, "e\n");
 			section0 = claim_element(nodes, "SECTION", { class: true });
 			var section0_nodes = children(section0);
 			div0 = claim_element(section0_nodes, "DIV", { class: true });
 			var div0_nodes = children(div0);
 			h1 = claim_element(div0_nodes, "H1", { class: true });
 			var h1_nodes = children(h1);
-			t0 = claim_text(h1_nodes, /*title*/ ctx[0]);
+			t1 = claim_text(h1_nodes, /*title*/ ctx[0]);
 			h1_nodes.forEach(detach);
 			div0_nodes.forEach(detach);
 			section0_nodes.forEach(detach);
-			t1 = claim_space(nodes);
+			t2 = claim_space(nodes);
 			section1 = claim_element(nodes, "SECTION", {});
 			var section1_nodes = children(section1);
 			div3 = claim_element(section1_nodes, "DIV", { class: true });
@@ -401,13 +404,13 @@ function create_fragment(ctx) {
 				each_blocks_1[i].l(div2_nodes);
 			}
 
-			t2 = claim_space(div2_nodes);
+			t3 = claim_space(div2_nodes);
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
 				each_blocks[i].l(div2_nodes);
 			}
 
-			t3 = claim_space(div2_nodes);
+			t4 = claim_space(div2_nodes);
 			div1 = claim_element(div2_nodes, "DIV", { class: true });
 			var div1_nodes = children(div1);
 			claim_component(pagination.$$.fragment, div1_nodes);
@@ -426,11 +429,12 @@ function create_fragment(ctx) {
 			attr(div3, "class", "container");
 		},
 		m(target, anchor) {
+			insert(target, t0, anchor);
 			insert(target, section0, anchor);
 			append(section0, div0);
 			append(div0, h1);
-			append(h1, t0);
-			insert(target, t1, anchor);
+			append(h1, t1);
+			insert(target, t2, anchor);
 			insert(target, section1, anchor);
 			append(section1, div3);
 			append(div3, div2);
@@ -439,19 +443,19 @@ function create_fragment(ctx) {
 				each_blocks_1[i].m(div2, null);
 			}
 
-			append(div2, t2);
+			append(div2, t3);
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
 				each_blocks[i].m(div2, null);
 			}
 
-			append(div2, t3);
+			append(div2, t4);
 			append(div2, div1);
 			mount_component(pagination, div1, null);
 			current = true;
 		},
 		p(ctx, [dirty]) {
-			if (!current || dirty & /*title*/ 1) set_data(t0, /*title*/ ctx[0]);
+			if (!current || dirty & /*title*/ 1) set_data(t1, /*title*/ ctx[0]);
 
 			if (dirty & /*allContent*/ 2) {
 				each_value_1 = /*allContent*/ ctx[1].filter(func);
@@ -465,7 +469,7 @@ function create_fragment(ctx) {
 					} else {
 						each_blocks_1[i] = create_each_block_1(child_ctx);
 						each_blocks_1[i].c();
-						each_blocks_1[i].m(div2, t2);
+						each_blocks_1[i].m(div2, t3);
 					}
 				}
 
@@ -488,7 +492,7 @@ function create_fragment(ctx) {
 					} else {
 						each_blocks[i] = create_each_block(child_ctx);
 						each_blocks[i].c();
-						each_blocks[i].m(div2, t3);
+						each_blocks[i].m(div2, t4);
 					}
 				}
 
@@ -513,8 +517,9 @@ function create_fragment(ctx) {
 			current = false;
 		},
 		d(detaching) {
+			if (detaching) detach(t0);
 			if (detaching) detach(section0);
-			if (detaching) detach(t1);
+			if (detaching) detach(t2);
 			if (detaching) detach(section1);
 			destroy_each(each_blocks_1, detaching);
 			destroy_each(each_blocks, detaching);
@@ -531,7 +536,7 @@ function instance($$self, $$props, $$invalidate) {
 	let postRangeHigh;
 	let postRangeLow;
 	let { title } = $$props, { allContent } = $$props, { content } = $$props;
-	let allPosts = allContent.filter(content => content.type == "ausstellungen");
+	let allPosts = allContent.filter(content => content.type == "interpretation");
 	let totalPosts = allPosts.length;
 	let totalPages = Math.ceil(totalPosts / postsPerPage);
 

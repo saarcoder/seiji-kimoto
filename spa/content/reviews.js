@@ -41,7 +41,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (24:6) {#each allContent.filter((content) => content.fields?.featured) as post}
+// (22:6) {#each allContent.filter((content) => content.fields?.featured) as post}
 function create_each_block_1(ctx) {
 	let div3;
 	let div2;
@@ -116,7 +116,7 @@ function create_each_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			if (img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.img)) attr(img, "src", img_src_value);
+			if (img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.ima)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*post*/ ctx[9].fields.img_alt);
 			attr(img, "class", "img-fluid rounded-lg w-100");
 			attr(div0, "class", "col-md-6 mb-4 mb-md-0");
@@ -147,7 +147,7 @@ function create_each_block_1(ctx) {
 			append(a1, t4);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*allContent*/ 2 && img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.img)) {
+			if (dirty & /*allContent*/ 2 && img.src !== (img_src_value = "assets/" + /*post*/ ctx[9].fields.ima)) {
 				attr(img, "src", img_src_value);
 			}
 
@@ -173,7 +173,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (48:8) {#if i >= postRangeLow && i < postRangeHigh}
+// (46:8) {#if i >= postRangeLow && i < postRangeHigh}
 function create_if_block(ctx) {
 	let div2;
 	let div1;
@@ -278,7 +278,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (47:6) {#each allPosts as post, i}
+// (45:6) {#each allPosts as post, i}
 function create_each_block(ctx) {
 	let if_block_anchor;
 	let if_block = /*i*/ ctx[11] >= /*postRangeLow*/ ctx[4] && /*i*/ ctx[11] < /*postRangeHigh*/ ctx[3] && create_if_block(ctx);
@@ -531,7 +531,7 @@ function instance($$self, $$props, $$invalidate) {
 	let postRangeHigh;
 	let postRangeLow;
 	let { title } = $$props, { allContent } = $$props, { content } = $$props;
-	let allPosts = allContent.filter(content => content.type == "ausstellungen");
+	let allPosts = allContent.filter(content => content.type == "reviews");
 	let totalPosts = allPosts.length;
 	let totalPages = Math.ceil(totalPosts / postsPerPage);
 

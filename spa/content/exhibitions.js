@@ -41,7 +41,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (24:6) {#each allContent.filter((content) => content.fields?.featured) as post}
+// (22:6) {#each allContent.filter((content) => content.fields?.featured) as post}
 function create_each_block_1(ctx) {
 	let div3;
 	let div2;
@@ -173,7 +173,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (48:8) {#if i >= postRangeLow && i < postRangeHigh}
+// (46:8) {#if i >= postRangeLow && i < postRangeHigh}
 function create_if_block(ctx) {
 	let div2;
 	let div1;
@@ -278,7 +278,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (47:6) {#each allPosts as post, i}
+// (45:6) {#each allPosts as post, i}
 function create_each_block(ctx) {
 	let if_block_anchor;
 	let if_block = /*i*/ ctx[11] >= /*postRangeLow*/ ctx[4] && /*i*/ ctx[11] < /*postRangeHigh*/ ctx[3] && create_if_block(ctx);
@@ -531,7 +531,7 @@ function instance($$self, $$props, $$invalidate) {
 	let postRangeHigh;
 	let postRangeLow;
 	let { title } = $$props, { allContent } = $$props, { content } = $$props;
-	let allPosts = allContent.filter(content => content.type == "ausstellungen");
+	let allPosts = allContent.filter(content => content.type == "exhibitions");
 	let totalPosts = allPosts.length;
 	let totalPages = Math.ceil(totalPosts / postsPerPage);
 

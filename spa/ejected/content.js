@@ -1,25 +1,7 @@
 const allContent = [{
 "pager": 1,
-"path": "st-wendel-19",
-"type": "St-Wendel-19",
-"filename": "St-Wendel-19.json",
-"fields": {
-    "title": "Schatten - Seiji Kimoto im Zwiegespräch mit Adolf Bender",
-    "size": "width:675px; height:825px;margin:0 112px;",
-    "img": "images/Torso_Kimoto_Rgb.jpg",
-    "img_alt": "",
-    "img_placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAARAA4DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAcIA//EACgQAAECBAQFBQAAAAAAAAAAAAECAwQFERIABhMhBwhBUbE0N2Fyc//EABYBAQEBAAAAAAAAAAAAAAAAAAQBA//EABwRAAIBBQEAAAAAAAAAAAAAAAABEQIDBDEyQf/aAAwDAQACEQMRAD8Az5oZpBTPiqxFQyYaYIhgiIhLxqMLUwxrKSq07g0Ukg1HkTg/Npk6pb4bcUi8prbUA9vjD5z1LcyQWSIxmew7eXoiJBUxERrBSlTKiq5BWEk3G1ule6qdaLdnL8tnJuZzHppUNSovsPTcGpqDUbbUG3bA2opli/YRcvMZ7aTD8leMTPy7eom31R5ODBi5HSM7Wmf/2Q==",
-    "unterschrift":"Torso Schmerz-Schuld, Regensburg 2004",
-    "intro_text": "Es sind die Schatten der Opfer des NS-Unrechtsstaates, die in den Bildern von Adolf Bender konkrete Gestalt annehmen. Adolf Bender hat in diesen Bildern eigene Leid- und Willkürerfahrungen und Beobachtungen von Misshandlung und Demütigungen im KZ dargestellt. Seiji Kimotos Skulpturen übertragen diese traumatische individuelle Erfahrung  in eine allgemein menschliche Dimension und machen sie zu einer nachvollziehbaren Erfahrung von dem, was Menschen Menschen antun  können, vor allem wenn sie dazu von staatlicher Seite aus legitimiert werden. Die Ausstellung zeigt den Bilderzyklus „Die Moorsoldaten“ von Adolf Bender in Korrespondenz mit Einzelskulpturen aus dem Zyklus „Macht und Ohnmacht“ bzw. „Menschenschatten“ von Seiji Kimoto. Die Midissage findet am 23. Juni um 11 Uhr im Adolf-Bender-Zentrum St. Wendel statt. Die Ausstellung ist vom 05. Mai bis zum 31. August für das Publikum geöffnet.",
-    "body_text": "Die Skulpturen Kimotos „sprechen“ mit den Bildern, indem sie das Böse und das Leid, das in ihnen dargestellt wird, nachempfindbar und damit universell machen. Dadurch werden die Schatten der Vergangenheit zeitlos. Gerade gegenwärtig scheinen sie aus der unheilvollen Vergangenheit wieder ans Licht zu kriechen. Denn: „Der Schoß ist fruchtbar noch, aus dem „das“ kroch (Bertold Brecht) - „Das“ als das Unrecht und die Schrecken der NS-Diktatur. „Das“ sollte niemals mehr Realität werden, deshalb die Bilder von Adolf Bender aus dem brutalen,  menschenverachtenden KZ-Alltag.",
-    "body2_text": "Dass aus menschenverachtender Willkür immer und überall unendliches Leid erwächst und deshalb niemals vorbei ist und immer „im Schoß“ auch unserer Zeit lauert, davon erzählen Seiji Kimotos Skulpturen. Vor allem junge Menschen, denen die NS-Zeit ferne Vergangenheit ist, finden offenbar über die Kunst einen emotional nachvollziehbaren Zugang zu den Geschehnissen dieser Zeit und der Universalität von Willkür und menschlichem Leid. Vielleicht verhilft dies zu mehr Wachsamkeit gegenüber den Gefahren aus dem rechten Spektrum unserer Gesellschaft.",
-    "body3_text": "Vor allem jetzt, da es immer weniger Zeitzeugen gibt, die aus eigenen schrecklichen Erlebnissen berichten können,vermag die Kunst vielleicht an tiefere Bewusstseinsschichten von Menschen der Gegenwart zu dringen. Sie soll aber nicht nur aus der Vergangenheit in die Zukunft wirken, sondern auch und insbesondere die Opfer aller KZ-Lager würdigen, die soviel Leid, Erniedrigungen und Misshandlungen erduldet haben oder ermordet wurden, Menschen - von Menschen! Die Ausstellung lädt insbesondere junge Menschen, Schulklassen ein, sich damit auseinander zu setzen, was gewesen ist und wie gefährdet der friedlicher Alltag ist, wenn wir nicht wachsam sind. "
-   }
-   
-},{
-"pager": 1,
-"path": "arbeiten/alex-deutsch",
-"type": "arbeiten",
+"path": "arbeit/alex-deutsch",
+"type": "arbeit",
 "filename": "Alex-Deutsch.json",
 "fields": {
   "title": "2 Hände - 2 Nummern - 1 Stein: Karl und Alex",
@@ -34,8 +16,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/denkmal-synagogenvorplatz-saarbruecken",
-"type": "arbeiten",
+"path": "arbeit/denkmal-synagogenvorplatz-saarbruecken",
+"type": "arbeit",
 "filename": "Denkmal-Synagogenvorplatz-Saarbruecken.json",
 "fields": {
     "title": "Wettbewerbsbeitrag Denkmal Synagogenvorplatz Saarbrücken",
@@ -62,8 +44,8 @@ const allContent = [{
  
 },{
 "pager": 1,
-"path": "arbeiten/fachoberschule-design",
-"type": "arbeiten",
+"path": "arbeit/fachoberschule-design",
+"type": "arbeit",
 "filename": "Fachoberschule-Design.json",
 "fields": {
   "title": "Installation \"Orientierung\"",
@@ -78,8 +60,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/festakt-loibl-nord",
-"type": "arbeiten",
+"path": "arbeit/festakt-loibl-nord",
+"type": "arbeit",
 "filename": "Festakt-Loibl-Nord.json",
 "fields": {
     "title": "Der Stacheldraht rostet vor sich hin, die Erinnerung nicht",
@@ -120,8 +102,8 @@ const allContent = [{
   }
 },{
 "pager": 1,
-"path": "arbeiten/geschwister-scholl-schule-blieskastel",
-"type": "arbeiten",
+"path": "arbeit/geschwister-scholl-schule-blieskastel",
+"type": "arbeit",
 "filename": "Geschwister-Scholl-Schule-Blieskastel.json",
 "fields": {
   "title": "Sagt Nein! - Eine Skulptur für die Weiße Rose",
@@ -162,8 +144,8 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "arbeiten/johanneskirche-saarbruecken",
-"type": "arbeiten",
+"path": "arbeit/johanneskirche-saarbruecken",
+"type": "arbeit",
 "filename": "Johanneskirche-Saarbruecken.json",
 "fields": {
   "title": "Installation \"Abwehr - Auslieferung\"",
@@ -178,8 +160,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/la-residence",
-"type": "arbeiten",
+"path": "arbeit/la-residence",
+"type": "arbeit",
 "filename": "La-Residence.json",
 "fields": {
   "title": "Wandinstallation \"Unterwegs\"",
@@ -199,8 +181,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/landtag-saarland",
-"type": "arbeiten",
+"path": "arbeit/landtag-saarland",
+"type": "arbeit",
 "filename": "Landtag-Saarland.json",
 "fields": {
   "title": "Wandgestaltung \"Macht und Ohnmacht\"",
@@ -215,8 +197,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/lottohaus-saarbruecken",
-"type": "arbeiten",
+"path": "arbeit/lottohaus-saarbruecken",
+"type": "arbeit",
 "filename": "Lottohaus-Saarbruecken.json",
 "fields": {
   "title": "Installation \"Konzentration\"",
@@ -231,8 +213,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/mahnmal-mauthausen",
-"type": "arbeiten",
+"path": "arbeit/mahnmal-mauthausen",
+"type": "arbeit",
 "filename": "Mahnmal-Mauthausen.json",
 "fields": {
   "title": "Mahnmal \"Stein unter Bewachung\"",
@@ -252,8 +234,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/mahnmal-neunkirchen",
-"type": "arbeiten",
+"path": "arbeit/mahnmal-neunkirchen",
+"type": "arbeit",
 "filename": "Mahnmal-Neunkirchen.json",
 "fields":  {
   "title": "Mahnmal für Zwangsarbeiter, Neunkirchen",
@@ -279,8 +261,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/mahnmal-oberschmelz",
-"type": "arbeiten",
+"path": "arbeit/mahnmal-oberschmelz",
+"type": "arbeit",
 "filename": "Mahnmal-Oberschmelz.json",
 "fields": {
   "title": "Mahnmal Lager Oberschmelz",
@@ -295,8 +277,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/mahnmal-portal-loibl-nord",
-"type": "arbeiten",
+"path": "arbeit/mahnmal-portal-loibl-nord",
+"type": "arbeit",
 "filename": "Mahnmal-Portal-Loibl-Nord.json",
 "fields": {
     "title": "Mahnmal \"Unvergessen - Ungebrochen\"",
@@ -318,8 +300,8 @@ const allContent = [{
  
 },{
 "pager": 1,
-"path": "arbeiten/rathaus-saarbruecken",
-"type": "arbeiten",
+"path": "arbeit/rathaus-saarbruecken",
+"type": "arbeit",
 "filename": "Rathaus-Saarbruecken.json",
 "fields": {
   "title": "Wandreliefgruppe \"Der Weg\"",
@@ -334,8 +316,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/relief-hohenschoenhausen",
-"type": "arbeiten",
+"path": "arbeit/relief-hohenschoenhausen",
+"type": "arbeit",
 "filename": "Relief-Hohenschoenhausen.json",
 "fields": {
   "title": "Relief \"Menschenmaterial\"",
@@ -350,8 +332,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/wandbild-musikhochschule-saarland",
-"type": "arbeiten",
+"path": "arbeit/wandbild-musikhochschule-saarland",
+"type": "arbeit",
 "filename": "Wandbild-Musikhochschule-Saarland.json",
 "fields": {
   "title": "Wandbild \"Mensch - Menschsein?\"",
@@ -366,8 +348,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/wandgestaltung-bergwerk-von-der-heydt",
-"type": "arbeiten",
+"path": "arbeit/wandgestaltung-bergwerk-von-der-heydt",
+"type": "arbeit",
 "filename": "Wandgestaltung-Bergwerk-Von-der-Heydt.json",
 "fields": {
   "title": "Wandgestaltung \"Kreisläufe\"",
@@ -382,8 +364,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/weiskirchen",
-"type": "arbeiten",
+"path": "arbeit/weiskirchen",
+"type": "arbeit",
 "filename": "Weiskirchen.json",
 "fields": {
   "title": "Modell \"Bewegung\", Verkehrsmittelpunkt Weiskirchen",
@@ -398,8 +380,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "arbeiten/wvs-wetzlar",
-"type": "arbeiten",
+"path": "arbeit/wvs-wetzlar",
+"type": "arbeit",
 "filename": "WvS-Wetzlar.json",
 "fields": {
   "title": "Installation \"Die Herausforderung - Die Tat\"",
@@ -417,8 +399,34 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "artist/life-and-work",
+"path": "arbeiten",
+"type": "arbeiten",
+"filename": "arbeiten.json",
+"fields": {
+    "meta": {
+        "desc": "Übersicht über Arbeiten im öffentlichen Raum",
+        "keywords": "Werkschau, Ausstellung"
+    },
+    "title": "Arbeiten"
+}
+
+},{
+"pager": 1,
+"path": "artist",
 "type": "artist",
+"filename": "artist.json",
+"fields": {
+    "meta": {
+        "desc": "About the artist",
+        "keywords": "Biography"
+    },
+    "title": "About the artist"
+}
+
+},{
+"pager": 1,
+"path": "artist/life-and-work",
+"type": "artistFolder",
 "filename": "life-and-work.json",
 "fields": {
   "title": "Taking a closer look - By Paul Bertemes",
@@ -480,7 +488,7 @@ const allContent = [{
 },{
 "pager": 1,
 "path": "artist/studio-visit-wladimir-kaminer",
-"type": "artist",
+"type": "artistFolder",
 "filename": "studio-visit-Wladimir-Kaminer.json",
 "fields": {
   "title": "Cultural scenes - Studio visit with Seiji Kimoto",
@@ -864,8 +872,21 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "artworks",
+"type": "artworks",
+"filename": "artworks.json",
+"fields": {
+    "meta": {
+        "desc": "Public works",
+        "keywords": "artwork, public art"
+    },
+    "title": "Artwork"
+}
+
+},{
+"pager": 1,
+"path": "ausstellung/ausstellung-dominikanerkirche",
+"type": "ausstellung",
 "filename": "Ausstellung-Dominikanerkirche.json",
 "fields": {
   "title": "Ausstellung Macht und Ohnmacht, St. Blasius",
@@ -888,8 +909,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/ausstellung-johanneskirche",
+"type": "ausstellung",
 "filename": "Ausstellung-Johanneskirche.json",
 "fields": {
   "title": "Aussttellung Macht und Ohnmacht, Johanneskirche",
@@ -915,8 +936,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/ausstellung-ljubljana",
+"type": "ausstellung",
 "filename": "Ausstellung-Ljubljana.json",
 "fields": {
   "title": "Ausstellung Moč in nemoč, Ljubljana",
@@ -946,8 +967,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/ausstellung-trzic",
+"type": "ausstellung",
 "filename": "Ausstellung-Trzic.json",
 "fields": {
   "title": "Ausstellung Moč in nemoč, Tržič",
@@ -987,8 +1008,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/berlin-hohenschoenhausen",
+"type": "ausstellung",
 "filename": "Berlin-Hohenschoenhausen.json",
 "fields": {
   "title": "Stasi-Haftanstalt Berlin-Hohenschönhausen",
@@ -1009,8 +1030,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/gedenken-loibltunnel",
+"type": "ausstellung",
 "filename": "Gedenken-Loibltunnel.json",
 "fields": {
   "title": "Erinnerung an die Opfer des Loibltunnels",
@@ -1030,8 +1051,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/gedenkstaette-mauthausen",
+"type": "ausstellung",
 "filename": "Gedenkstaette-Mauthausen.json",
 "fields": {
   "title": "Das Leiden erinnern, die Menschen ehren",
@@ -1099,8 +1120,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/gedenkstaette-natzweiler-struthof",
+"type": "ausstellung",
 "filename": "Gedenkstaette-Natzweiler-Struthof.json",
 "fields": {
   "title": "Gedenken Natzweiler-Struthof",
@@ -1141,8 +1162,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/jff-in-zagreb",
+"type": "ausstellung",
 "filename": "JFF-in-Zagreb.json",
 "fields": {
   "title": "Exhibition Moč in nemoč, Zagreb",
@@ -1193,8 +1214,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/mahnmal-entwurf",
+"type": "ausstellung",
 "filename": "Mahnmal-Entwurf.json",
 "fields": {
   "title": "\"Stern in Bewegung\"",
@@ -1208,8 +1229,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/menschenschatten-natzweiler-struthof",
+"type": "ausstellung",
 "filename": "Menschenschatten-Natzweiler-Struthof.json",
 "fields": {
   "title": "L’ombre des hommes",
@@ -1248,8 +1269,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/petite-rosselle-saarbruecken",
+"type": "ausstellung",
 "filename": "Petite-Rosselle-Saarbruecken.json",
 "fields": {
     "title": "Ausstellung Saarbrücken - Petite Rosselle",
@@ -1265,8 +1286,8 @@ const allContent = [{
   }
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/petite-rosselle",
+"type": "ausstellung",
 "filename": "Petite-Rosselle.json",
 "fields": {
     "title": "L’ombre des Hommes - Menschenschatten, Petite Rosselle",
@@ -1310,8 +1331,8 @@ const allContent = [{
   
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/retrospektive-neunkirchen",
+"type": "ausstellung",
 "filename": "Retrospektive-Neunkirchen.json",
 "fields": {
     "title": "Kimoto - Eine Retrospektive",
@@ -1367,8 +1388,26 @@ const allContent = [{
   }
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/st-wendel-19",
+"type": "ausstellung",
+"filename": "St-Wendel-19.json",
+"fields": {
+    "title": "Schatten - Seiji Kimoto im Zwiegespräch mit Adolf Bender",
+    "size": "width:675px; height:825px;margin:0 112px;",
+    "img": "images/Torso_Kimoto_Rgb.jpg",
+    "img_alt": "",
+    "img_placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAARAA4DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAcIA//EACgQAAECBAQFBQAAAAAAAAAAAAECAwQFERIABhMhBwhBUbE0N2Fyc//EABYBAQEBAAAAAAAAAAAAAAAAAAQBA//EABwRAAIBBQEAAAAAAAAAAAAAAAABEQIDBDEyQf/aAAwDAQACEQMRAD8Az5oZpBTPiqxFQyYaYIhgiIhLxqMLUwxrKSq07g0Ukg1HkTg/Npk6pb4bcUi8prbUA9vjD5z1LcyQWSIxmew7eXoiJBUxERrBSlTKiq5BWEk3G1ule6qdaLdnL8tnJuZzHppUNSovsPTcGpqDUbbUG3bA2opli/YRcvMZ7aTD8leMTPy7eom31R5ODBi5HSM7Wmf/2Q==",
+    "unterschrift":"Torso Schmerz-Schuld, Regensburg 2004",
+    "intro_text": "Es sind die Schatten der Opfer des NS-Unrechtsstaates, die in den Bildern von Adolf Bender konkrete Gestalt annehmen. Adolf Bender hat in diesen Bildern eigene Leid- und Willkürerfahrungen und Beobachtungen von Misshandlung und Demütigungen im KZ dargestellt. Seiji Kimotos Skulpturen übertragen diese traumatische individuelle Erfahrung  in eine allgemein menschliche Dimension und machen sie zu einer nachvollziehbaren Erfahrung von dem, was Menschen Menschen antun  können, vor allem wenn sie dazu von staatlicher Seite aus legitimiert werden. Die Ausstellung zeigt den Bilderzyklus „Die Moorsoldaten“ von Adolf Bender in Korrespondenz mit Einzelskulpturen aus dem Zyklus „Macht und Ohnmacht“ bzw. „Menschenschatten“ von Seiji Kimoto. Die Midissage findet am 23. Juni um 11 Uhr im Adolf-Bender-Zentrum St. Wendel statt. Die Ausstellung ist vom 05. Mai bis zum 31. August für das Publikum geöffnet.",
+    "body_text": "Die Skulpturen Kimotos „sprechen“ mit den Bildern, indem sie das Böse und das Leid, das in ihnen dargestellt wird, nachempfindbar und damit universell machen. Dadurch werden die Schatten der Vergangenheit zeitlos. Gerade gegenwärtig scheinen sie aus der unheilvollen Vergangenheit wieder ans Licht zu kriechen. Denn: „Der Schoß ist fruchtbar noch, aus dem „das“ kroch (Bertold Brecht) - „Das“ als das Unrecht und die Schrecken der NS-Diktatur. „Das“ sollte niemals mehr Realität werden, deshalb die Bilder von Adolf Bender aus dem brutalen,  menschenverachtenden KZ-Alltag.",
+    "body2_text": "Dass aus menschenverachtender Willkür immer und überall unendliches Leid erwächst und deshalb niemals vorbei ist und immer „im Schoß“ auch unserer Zeit lauert, davon erzählen Seiji Kimotos Skulpturen. Vor allem junge Menschen, denen die NS-Zeit ferne Vergangenheit ist, finden offenbar über die Kunst einen emotional nachvollziehbaren Zugang zu den Geschehnissen dieser Zeit und der Universalität von Willkür und menschlichem Leid. Vielleicht verhilft dies zu mehr Wachsamkeit gegenüber den Gefahren aus dem rechten Spektrum unserer Gesellschaft.",
+    "body3_text": "Vor allem jetzt, da es immer weniger Zeitzeugen gibt, die aus eigenen schrecklichen Erlebnissen berichten können,vermag die Kunst vielleicht an tiefere Bewusstseinsschichten von Menschen der Gegenwart zu dringen. Sie soll aber nicht nur aus der Vergangenheit in die Zukunft wirken, sondern auch und insbesondere die Opfer aller KZ-Lager würdigen, die soviel Leid, Erniedrigungen und Misshandlungen erduldet haben oder ermordet wurden, Menschen - von Menschen! Die Ausstellung lädt insbesondere junge Menschen, Schulklassen ein, sich damit auseinander zu setzen, was gewesen ist und wie gefährdet der friedlicher Alltag ist, wenn wir nicht wachsam sind. "
+   }
+   
+},{
+"pager": 1,
+"path": "ausstellung/weitere-ausstellungen",
+"type": "ausstellung",
 "filename": "Weitere-Ausstellungen.json",
 "fields": {
   "title": "Ausstellungen, Auktionen, Kurse, Vorführungen",
@@ -1404,8 +1443,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen",
-"type": "ausstellungen",
+"path": "ausstellung/mediart",
+"type": "ausstellung",
 "filename": "mediArt.json",
 "fields": {
   "title": "Ausstellung Galerie mediArt",
@@ -1443,8 +1482,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/berlin-exhibition",
-"type": "exhibitions",
+"path": "exhibition/berlin-exhibition",
+"type": "exhibition",
 "filename": "Berlin-exhibition.json",
 "fields": {
   "title": "Stasi detention center Berlin-Hohenschönhausen",
@@ -1465,8 +1504,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/human-shadows-natzweiler-struthof",
-"type": "exhibitions",
+"path": "exhibition/human-shadows-natzweiler-struthof",
+"type": "exhibition",
 "filename": "Human-Shadows-Natzweiler-Struthof.json",
 "fields": {
   "title": "L’ombre des hommes / Human Shadows",
@@ -1505,8 +1544,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/jff-in-zagreb",
-"type": "exhibitions",
+"path": "exhibition/jff-in-zagreb",
+"type": "exhibition",
 "filename": "JFF-in-Zagreb.json",
 "fields": {
   "title": "Exhibition Moč in nemoč, Zagreb",
@@ -1557,8 +1596,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/kimoto-retrospective",
-"type": "exhibitions",
+"path": "exhibition/kimoto-retrospective",
+"type": "exhibition",
 "filename": "Kimoto-Retrospective.json",
 "fields": {
     "title": "Kimoto: A Retrospective",
@@ -1612,8 +1651,8 @@ const allContent = [{
   }
 },{
 "pager": 1,
-"path": "exhibitions/kimoto-exhibition-petite-rosselle-and-saarbruecken",
-"type": "exhibitions",
+"path": "exhibition/kimoto-exhibition-petite-rosselle-and-saarbruecken",
+"type": "exhibition",
 "filename": "Kimoto-exhibition-Petite-Rosselle-and-Saarbruecken.json",
 "fields": {
     "title": "Joint Kimoto exhibition Petite-Rosselle and Saarbruecken",
@@ -1627,8 +1666,8 @@ const allContent = [{
   }
 },{
 "pager": 1,
-"path": "exhibitions/ljubljana-exhibition",
-"type": "exhibitions",
+"path": "exhibition/ljubljana-exhibition",
+"type": "exhibition",
 "filename": "Ljubljana-exhibition.json",
 "fields": {
   "title": "Exhibition Moč in nemoč, Ljubljana",
@@ -1658,8 +1697,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/loibl-commemoration",
-"type": "exhibitions",
+"path": "exhibition/loibl-commemoration",
+"type": "exhibition",
 "filename": "Loibl-commemoration.json",
 "fields": {
   "title": "In memory of the victims of the Loibl tunnel",
@@ -1679,8 +1718,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/mauthausen-exhibition",
-"type": "exhibitions",
+"path": "exhibition/mauthausen-exhibition",
+"type": "exhibition",
 "filename": "Mauthausen-exhibition.json",
 "fields": {
   "title": "Remember the sufferings, honor the people",
@@ -1748,8 +1787,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/struthof",
-"type": "exhibitions",
+"path": "exhibition/struthof",
+"type": "exhibition",
 "filename": "Struthof.json",
 "fields": {
   "title": "Remember Natzweiler-Struthof",
@@ -1790,8 +1829,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/trzic-exhibition",
-"type": "exhibitions",
+"path": "exhibition/trzic-exhibition",
+"type": "exhibition",
 "filename": "Trzic-exhibition.json",
 "fields": {
   "title": "Exhibition Moč in nemoč, Tržič",
@@ -1831,8 +1870,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/dominican-church-exhibition",
-"type": "exhibitions",
+"path": "exhibition/dominican-church-exhibition",
+"type": "exhibition",
 "filename": "dominican-church-exhibition.json",
 "fields": {
   "title": "Exhibition Power and Powerlessness, cloister of St. Blaise",
@@ -1855,8 +1894,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/exhibition-petite-rosselle",
-"type": "exhibitions",
+"path": "exhibition/exhibition-petite-rosselle",
+"type": "exhibition",
 "filename": "exhibition-Petite-Rosselle.json",
 "fields": {
     "title": "L’ombre des Hommes - Menschenschatten (Human Shadows), Petite Rosselle",
@@ -1900,8 +1939,8 @@ const allContent = [{
   
 },{
 "pager": 1,
-"path": "exhibitions/exhibition-at-st-johns-church-saarbruecken",
-"type": "exhibitions",
+"path": "exhibition/exhibition-at-st-johns-church-saarbruecken",
+"type": "exhibition",
 "filename": "exhibition-at-st-johns-church-saarbruecken.json",
 "fields": {
   "title": "Exhibition Power and Powerlessness, St. John's Church",
@@ -1927,8 +1966,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/mediart-gallery",
-"type": "exhibitions",
+"path": "exhibition/mediart-gallery",
+"type": "exhibition",
 "filename": "mediArt-gallery.json",
 "fields": {
   "title": "Exhibition gallery mediArt",
@@ -1953,8 +1992,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/memorial-sketch",
-"type": "exhibitions",
+"path": "exhibition/memorial-sketch",
+"type": "exhibition",
 "filename": "memorial-sketch.json",
 "fields": {
   "title": "\"Star in Motion\"",
@@ -1968,8 +2007,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "exhibitions/other-exhibitions-and-events",
-"type": "exhibitions",
+"path": "exhibition/other-exhibitions-and-events",
+"type": "exhibition",
 "filename": "other-exhibitions-and-events.json",
 "fields": {
   "title": "Exhibitions, auctions, seminars, presentations",
@@ -2001,6 +2040,19 @@ const allContent = [{
   "lnkText5": "Tea ceremony",
   "img5_placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCHgJyv/9k=",
   "body5_text": "Occasionally Seiji Kimoto is also appearing at public tea ceremony demonstrations, partly in the context of the Japanese Garden's event program in the city of Kaiserslautern, partly as companion event of his exhibitions, most recently in the programme for his exhibition at St. John's Church Saarbrücken in 2012."
+}
+
+},{
+"pager": 1,
+"path": "exhibitions",
+"type": "exhibitions",
+"filename": "exhibitions.json",
+"fields": {
+    "meta": {
+        "desc": "Exhibitions",
+        "keywords": "Exhibitions"
+    },
+    "title": "Exhibitions"
 }
 
 },{
@@ -2215,8 +2267,34 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "kuenstler/interview-kaminer",
+"path": "interpretationen",
+"type": "interpretationen",
+"filename": "interpretationen.json",
+"fields": {
+    "meta": {
+        "desc": "Werkdeutung",
+        "keywords": "Kritik, Interpretation"
+    },
+    "title": "Werkdeutung"
+}
+
+},{
+"pager": 1,
+"path": "kuenstler",
 "type": "kuenstler",
+"filename": "kuenstler.json",
+"fields": {
+    "meta": {
+        "desc": "Vita Seiji Kimoto",
+        "keywords": "Über den Künstler, Vita, Biographie"
+    },
+    "title": "Über den Künstler"
+}
+
+},{
+"pager": 1,
+"path": "kuenstler/interview-kaminer",
+"type": "kuenstlerVita",
 "filename": "Interview-Kaminer.json",
 "fields": {
   "title": "Kulturlandschaften - Besuch bei Seiji Kimoto",
@@ -2230,7 +2308,7 @@ const allContent = [{
 },{
 "pager": 1,
 "path": "kuenstler/leben-und-werk",
-"type": "kuenstler",
+"type": "kuenstlerVita",
 "filename": "Leben-und-Werk.json",
 "fields": {
   "title": "Ein Versuch der Annäherung - Von Paul Bertemes",
@@ -2583,118 +2661,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "ausstellungen/alex-deutsch",
-"type": "posts",
-"filename": "Alex-Deutsch.json",
-"fields": {
-    "title": "2 Hände - 2 Nummern - 1 Stein",
-    "image": {
-        "src": "Alex-Deutsch.jpg",
-        "alt": "Skulptur 2 Hände - 2 Nummern - 1 Stein für die Alex-Deutsch-Stiftung"
-    },
-    "intro": "<p>Das Schicksal hatte sie aneinander gefesselt und zu Freunden gemacht: Karl Löb und Alex Deutsch, in den Vernichtungslagern der Nazis.</p>",
-    "body": "<h5 id='paragraph'>Karl und Alex</h5><p>Das Schicksal hatte sie aneinander gefesselt und zu Freunden gemacht: Karl Löb und Alex Deutsch, in den Vernichtungslagern der Nazis. Ihr Ziel: Überleben. Zuerst im Konzentrationslager Auschwitz, dann im Zwangsarbeiterlager Langenstein-Zwieberge. Sie machten sich gegenseitig Mut, dass es für sie eine Zukunft geben, dass sie der \"Vernichtung durch Arbeit\" entrinnen könnten. Viele Jahre später kehrte Alex Deutsch, dessen Frau und Kind in Auschwitz vergast wurden, nach Deutschland zurück und lernte durch glückliche Fügung die Witwe seines Freundes Karl, Doris, kennen und lieben. Aus dem Bergwerk, in dem er und Karl als Zwangsarbeiter schuften mussten, brachte er gemeinsam mit seiner Frau einen Stein mit, den sie zum Gedenken fassen lassen wollten. Aus dieser Idee heraus entstand die Skulptur \"2 Hände, 2 Nummern, 1 Stein - Karl und Alex\" von Seiji Kimoto. Die Übergabe fand am 06. Mai 2011 statt.</p><p>Zwei Hände, zusammengebunden vom Schicksal wie ein Mensch. Zwei Nummern, ewige Narben, eingebrannt von ihren Peinigern. In ihrer Mitte ein Stein, Bruchstück der Steine, die sie im Bergwerk aus dem Felsen schlagen mussten. Die Hände geöffnet und nach oben gerichtet, ragen über den Stein hinaus, ohne Verzweiflung, in unzerstörbarer Hoffnung auf eine andere Zukunft.</p>",
-    "unterschrift": "2 Hände - 2 Nummern - 1 Stein: Karl und Alex, Foto: Marc Prahms",
-    "img_placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAGAAkDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQG/8QAIhAAAgEDAgcAAAAAAAAAAAAAAQIRAAMEBSEUFyJRVZXj/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAP/xAAXEQEBAQEAAAAAAAAAAAAAAAABACED/9oADAMBAAIRAxEAPwCfjnwF0jIzbM3DLM9q7JJCACRCyJZyQTv09ttTzA0zwmnes+1KUA2l0XL/2Q==",
-    "size": "width:900px;height:600px;",
-    "author": "Alex Kimoto",
-    "date": "1/8/2020"
-}
-},{
-"pager": 1,
-"path": "ausstellungen/post-2",
-"type": "posts",
-"filename": "post-2.json",
-"fields": {
-    "title": "Pump-up the team morale and celebrate the excellence",
-    "image": {
-        "src": "post-2.jpg",
-        "alt": "Abstract painting with bright colors"
-    },
-    "body": "<h5 id='paragraph'>Paragraph</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.</p>",
-    "author": "Jim Fisk",
-    "date": "1/8/2020",
-    "featured": true
-}
-},{
-"pager": 1,
-"path": "ausstellungen/post-3",
-"type": "posts",
-"filename": "post-3.json",
-"fields": {
-    "title": "Screens with built in Present and Dismiss animations.",
-    "image": {
-        "src": "post-3.jpg",
-        "alt": "Abstract painting with bright colors"
-    },
-    "body": "<h5 id='paragraph'>Paragraph</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.</p>",
-    "author": "Jim Fisk",
-    "date": "1/8/2020"
-}
-},{
-"pager": 1,
-"path": "ausstellungen/post-4",
-"type": "posts",
-"filename": "post-4.json",
-"fields": {
-    "title": "Adversus is a web-based dialer and practical CRM solution",
-    "image": {
-        "src": "post-1.jpg",
-        "alt": "Abstract painting with bright colors"
-    },
-    "body": "<h5 id='paragraph'>Paragraph</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.</p>",
-    "author": "Jim Fisk",
-    "date": "1/8/2020"
-}
-},{
-"pager": 1,
-"path": "ausstellungen/post-5",
-"type": "posts",
-"filename": "post-5.json",
-"fields": {
-    "title": "Adversus is a web-based dialer and practical CRM solution",
-    "image": {
-        "src": "post-1.jpg",
-        "alt": "Abstract painting with bright colors"
-    },
-    "body": "<h5 id='paragraph'>Paragraph</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.</p>",
-    "author": "Jim Fisk",
-    "date": "1/8/2020"
-}
-},{
-"pager": 1,
-"path": "ausstellungen/post-6",
-"type": "posts",
-"filename": "post-6.json",
-"fields": {
-    "title": "Screens with built in Present and Dismiss animations.",
-    "image": {
-        "src": "post-3.jpg",
-        "alt": "Abstract painting with bright colors"
-    },
-    "body": "<h5 id='paragraph'>Paragraph</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.</p>",
-    "author": "Jim Fisk",
-    "date": "1/8/2020"
-}
-},{
-"pager": 1,
-"path": "ausstellungen/post-7",
-"type": "posts",
-"filename": "post-7.json",
-"fields": {
-    "title": "Adversus is a web-based dialer and practical CRM solution",
-    "image": {
-        "src": "post-1.jpg",
-        "alt": "Abstract painting with bright colors"
-    },
-    "body": "<h5 id='paragraph'>Paragraph</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.</p>",
-    "author": "Jim Fisk",
-    "date": "1/8/2020"
-}
-},{
-"pager": 1,
-"path": "publications/artists-fact-sheet",
-"type": "publications",
+"path": "publication/artists-fact-sheet",
+"type": "publication",
 "filename": "artists-fact-sheet.json",
 "fields": {
   "title": "Fact sheet Seiji Kimoto",
@@ -2707,8 +2675,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publications/bonsai-people",
-"type": "publications",
+"path": "publication/bonsai-people",
+"type": "publication",
 "filename": "bonsai-people.json",
 "fields": {
   "title": "\"Bonsai People\" and \"Shaken off the Tree\"",
@@ -2729,8 +2697,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publications/catalog-moc-in-nemoc",
-"type": "publications",
+"path": "publication/catalog-moc-in-nemoc",
+"type": "publication",
 "filename": "catalog-Moc-in-nemoc.json",
 "fields": {
   "title": "Exhibition catalog Moč in nemoč",
@@ -2745,8 +2713,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publications/cultural-capital-regensburg",
-"type": "publications",
+"path": "publication/cultural-capital-regensburg",
+"type": "publication",
 "filename": "cultural-capital-Regensburg.json",
 "fields": {
   "title": "Power and Powerlessness",
@@ -2761,8 +2729,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publications/half-truth",
-"type": "publications",
+"path": "publication/half-truth",
+"type": "publication",
 "filename": "half-truth.json",
 "fields": {
   "title": "Half truth - full lie",
@@ -2777,8 +2745,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publications/museum-st-wendel",
-"type": "publications",
+"path": "publication/museum-st-wendel",
+"type": "publication",
 "filename": "museum-St-Wendel.json",
 "fields": {
   "title": "Artist's portrait Seiji Kimoto",
@@ -2793,8 +2761,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publications/other-publications",
-"type": "publications",
+"path": "publication/other-publications",
+"type": "publication",
 "filename": "other-publications.json",
 "fields": {
   "title": "Selected references",
@@ -2809,8 +2777,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publications/power-and-powerlessness",
-"type": "publications",
+"path": "publication/power-and-powerlessness",
+"type": "publication",
 "filename": "power-and-powerlessness.json",
 "fields": {
   "title": "Power and Powerlessness",
@@ -2824,8 +2792,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publications/studio-visits",
-"type": "publications",
+"path": "publication/studio-visits",
+"type": "publication",
 "filename": "studio-visits.json",
 "fields": {
 "title": "\"Visites d'atelier - Studio visits\"",
@@ -2842,8 +2810,21 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publikationen/atelierbesuche",
-"type": "publikationen",
+"path": "publications",
+"type": "publications",
+"filename": "publications.json",
+"fields": {
+    "meta": {
+        "desc": "Publications",
+        "keywords": "In print, documentation"
+    },
+    "title": "In print"
+}
+
+},{
+"pager": 1,
+"path": "publikation/atelierbesuche",
+"type": "publikation",
 "filename": "Atelierbesuche.json",
 "fields": {
 "title": "\"Visites d'atelier - Atelierbesuche\"",
@@ -2860,8 +2841,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publikationen/bonsai-menschen",
-"type": "publikationen",
+"path": "publikation/bonsai-menschen",
+"type": "publikation",
 "filename": "Bonsai-Menschen.json",
 "fields": {
   "title": "\"Bonsai-Menschen\" und \"Vom Baum geschüttelt\"",
@@ -2882,8 +2863,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publikationen/kuenstlerblatt-kimoto",
-"type": "publikationen",
+"path": "publikation/kuenstlerblatt-kimoto",
+"type": "publikation",
 "filename": "Kuenstlerblatt-Kimoto.json",
 "fields": {
   "title": "Künstlerblatt Seiji Kimoto",
@@ -2896,8 +2877,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publikationen/kulturhauptstadt-regensburg",
-"type": "publikationen",
+"path": "publikation/kulturhauptstadt-regensburg",
+"type": "publikation",
 "filename": "Kulturhauptstadt-Regensburg.json",
 "fields": {
   "title": "Macht und Ohnmacht",
@@ -2912,8 +2893,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publikationen/macht-und-ohnmacht",
-"type": "publikationen",
+"path": "publikation/macht-und-ohnmacht",
+"type": "publikation",
 "filename": "Macht-und-Ohnmacht.json",
 "fields": {
   "title": "Macht und Ohnmacht",
@@ -2927,8 +2908,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publikationen/mia-muenster",
-"type": "publikationen",
+"path": "publikation/mia-muenster",
+"type": "publikation",
 "filename": "Mia-Muenster.json",
 "fields": {
   "title": "Künstlerband Seiji Kimoto",
@@ -2943,8 +2924,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publikationen/moc-in-nemoc",
-"type": "publikationen",
+"path": "publikation/moc-in-nemoc",
+"type": "publikation",
 "filename": "Moc-in-nemoc.json",
 "fields": {
   "title": "Ausstellungskatalog Moč in nemoč",
@@ -2959,8 +2940,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publikationen/weitere-publikationen",
-"type": "publikationen",
+"path": "publikation/weitere-publikationen",
+"type": "publikation",
 "filename": "Weitere-Publikationen.json",
 "fields": {
   "title": "Auswahlbibliographie",
@@ -2975,8 +2956,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "publikationen/halbe-wahrheit",
-"type": "publikationen",
+"path": "publikation/halbe-wahrheit",
+"type": "publikation",
 "filename": "halbe-Wahrheit.json",
 "fields": {
   "title": "Halbe Wahrheit, ganze Lüge",
@@ -2991,8 +2972,21 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "reviews/artistic-direction",
-"type": "reviews",
+"path": "publikationen",
+"type": "publikationen",
+"filename": "publikationen.json",
+"fields": {
+    "meta": {
+        "desc": "Veröffentlichungen",
+        "keywords": "Dokumentation"
+    },
+    "title": "Nachlesen"
+}
+
+},{
+"pager": 1,
+"path": "review/artistic-direction",
+"type": "review",
 "filename": "artistic-direction.json",
 "fields": {
   "title": "Artistic direction",
@@ -3024,8 +3018,8 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "reviews/figures-of-man",
-"type": "reviews",
+"path": "review/figures-of-man",
+"type": "review",
 "filename": "figures-of-man.json",
 "fields": {
   "title": "Man in between Power and Powerlessness",
@@ -3042,6 +3036,19 @@ const allContent = [{
   "img2_placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAKAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAiEAABAwMFAAMAAAAAAAAAAAABAgMEAAUxBhESEyEHIjL/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAECIRH/2gAMAwEAAhEDEQA/AJ38qxLnqyet/SbC4ZdkbkvOFtcpsMtceAO/iTzUds9iT7mlXXWdstqp8m8Kt8RVyMggyyynuP0Qn97cseZx5SiU8Ep7h//Z",
   "unterschrift2": "Two People, Natzweiler, Foto: Michaël Verry",
   "body2_text": "\"The sculpture \"Two People\" is terrible in the scenery. A giant foot with a slender leg crushes a man. One might think that this man is facing the end. But as weedy as the ruffian appears, standing on a foot just too big for him, as mightily the victim's arm stretches up high. Is it resistance? But he has not clenched his fist. Possibly resignation after all? Yet his fingers are not bent, and neither is his hand sinking, indicating surrender. Moreover, arm and hand are disproportionately large. And they stretch upwards forcefully. A greeting, royal gesture. A signpost. Man is dignity, dignity that can not be taken away from him. Because amid all torture and death, it talks of the life that is indestructible. Arm and hand resemble a pointer towards eternity.\""
+}
+
+},{
+"pager": 1,
+"path": "reviews",
+"type": "reviews",
+"filename": "reviews.json",
+"fields": {
+    "meta": {
+        "desc": "Reviews",
+        "keywords": "Critics"
+    },
+    "title": "Critics"
 }
 
 },
